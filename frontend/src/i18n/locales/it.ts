@@ -53,6 +53,8 @@ export default {
     refresh: 'Aggiorna',
     download: 'Scarica',
     upload: 'Carica',
+    uploading: 'Caricamento...',
+    uploadFailed: 'Caricamento fallito',
     actions: 'Azioni',
     status: 'Stato',
     name: 'Nome',
@@ -453,6 +455,8 @@ export default {
     },
     developerModeWarning: 'La modalità sviluppatore LAN non è attivata su: {{names}}. Alcune funzionalità potrebbero non funzionare.',
     howToEnable: 'Come attivare',
+    dropToPrint: 'Rilascia per stampare',
+    cannotPrint: 'Stampante occupata',
   },
 
   // Archives page

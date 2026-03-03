@@ -54,6 +54,8 @@ export default {
     refresh: 'Actualiser',
     download: 'Télécharger',
     upload: 'Téléverser',
+    uploading: 'Téléversement...',
+    uploadFailed: 'Échec du téléversement',
     actions: 'Actions',
     status: 'Statut',
     name: 'Nom',
@@ -462,6 +464,8 @@ export default {
     },
     developerModeWarning: 'Le mode développeur LAN n\'est pas activé sur : {{names}}. Certaines fonctionnalités peuvent ne pas fonctionner.',
     howToEnable: 'Comment activer',
+    dropToPrint: 'Déposer pour imprimer',
+    cannotPrint: 'Imprimante occupée',
   },
 
   // Archives page

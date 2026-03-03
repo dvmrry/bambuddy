@@ -54,6 +54,8 @@ export default {
     refresh: 'Aktualisieren',
     download: 'Herunterladen',
     upload: 'Hochladen',
+    uploading: 'Hochladen...',
+    uploadFailed: 'Hochladen fehlgeschlagen',
     actions: 'Aktionen',
     status: 'Status',
     name: 'Name',
@@ -462,6 +464,8 @@ export default {
     },
     developerModeWarning: 'Der Entwickler-LAN-Modus ist nicht aktiviert auf: {{names}}. Einige Funktionen funktionieren möglicherweise nicht.',
     howToEnable: 'Aktivieren',
+    dropToPrint: 'Zum Drucken ablegen',
+    cannotPrint: 'Drucker beschäftigt',
   },
 
   // Archives page

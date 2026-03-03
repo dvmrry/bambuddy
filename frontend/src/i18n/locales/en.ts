@@ -54,6 +54,8 @@ export default {
     refresh: 'Refresh',
     download: 'Download',
     upload: 'Upload',
+    uploading: 'Uploading...',
+    uploadFailed: 'Upload failed',
     actions: 'Actions',
     status: 'Status',
     name: 'Name',
@@ -462,6 +464,8 @@ export default {
     },
     developerModeWarning: 'Developer LAN mode is not enabled on: {{names}}. Some features may not work.',
     howToEnable: 'How to enable',
+    dropToPrint: 'Drop to print',
+    cannotPrint: 'Printer busy',
   },
 
   // Archives page
