@@ -1,0 +1,200 @@
+2026-03-04 14:31:09,057 INFO [backend.app.services.notification_service] Notification digest scheduler started
+2026-03-04 14:31:09,057 INFO [backend.app.services.github_backup] Starting GitHub backup scheduler
+2026-03-04 14:31:09,057 INFO [backend.app.main] AMS history recording started
+2026-03-04 14:31:09,057 INFO [backend.app.main] Printer runtime tracking started
+2026-03-04 14:31:09,057 INFO [backend.app.main] SpoolBuddy watchdog started
+2026-03-04 14:31:09,057 INFO [backend.app.main] Camera stream cleanup started
+2026-03-04 14:31:09,078 INFO [root] Virtual printer manager synced from database
+2026-03-04 14:31:57,185 INFO [backend.app.api.routes.auth] Creating admin user: [USER]
+2026-03-04 14:31:57,193 INFO [backend.app.api.routes.auth] Added new admin user to Administrators group
+2026-03-04 14:31:57,193 INFO [backend.app.api.routes.auth] Admin user added to session: [USER]
+2026-03-04 14:31:57,200 INFO [backend.app.api.routes.auth] Admin user created successfully: 1
+2026-03-04 14:31:57,200 INFO [backend.app.api.routes.auth] Setup completed: auth_enabled=True, admin_created=True
+2026-03-04 14:32:04,272 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-04 14:32:04,273 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-04 14:32:04,273 INFO [backend.app.api.routes.websocket] Sent initial status for 0 printers
+2026-03-04 14:33:30,021 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-04 14:33:30,021 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-04 14:33:30,021 INFO [backend.app.api.routes.websocket] Sent initial status for 0 printers
+2026-03-04 14:47:13,732 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-04 14:47:13,733 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-04 14:47:13,733 INFO [backend.app.api.routes.websocket] Sent initial status for 0 printers
+2026-03-04 15:15:19,244 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] MQTT disconnected: rc=Unspecified error, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-03-04 15:15:19,245 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Disconnected shortly after request topic subscription. Disabling request topic for this printer.
+2026-03-04 15:15:21,068 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Firmware version: 01.04.00.00
+2026-03-04 15:15:21,662 INFO [backend.app.main] [Printer 2] Broadcasting AMS change via WebSocket
+2026-03-04 15:15:21,783 INFO [backend.app.api.routes.cloud] get_filament_info called with 1 IDs: ['GFL99']
+2026-03-04 15:15:42,926 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] MQTT disconnected: rc=Unspecified error, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-03-04 15:15:42,926 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Disconnected shortly after request topic subscription. Disabling request topic for this printer.
+2026-03-04 15:15:44,703 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Firmware version: 01.09.00.00
+2026-03-04 15:15:45,146 INFO [backend.app.main] [Printer 1] Broadcasting AMS change via WebSocket
+2026-03-04 15:16:04,639 INFO [backend.app.services.discovery] Starting SSDP discovery on port 2021 for Bambu Lab printers...
+2026-03-04 15:16:17,796 INFO [backend.app.services.firmware_check] Got Bambu Lab build ID: lMlCnMYPi5bO6ljcUJHLf
+2026-03-04 15:16:19,112 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-04 15:17:30,350 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] MQTT disconnected: rc=Unspecified error, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-03-04 15:17:30,350 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Disconnected shortly after request topic subscription. Disabling request topic for this printer.
+2026-03-04 15:17:32,128 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Firmware version: 01.07.00.00
+2026-03-04 15:17:32,252 INFO [backend.app.main] [Printer 3] Broadcasting AMS change via WebSocket
+2026-03-04 15:18:08,298 INFO [backend.app.services.camera] Found ffmpeg at: /usr/bin/ffmpeg
+2026-03-04 15:18:09,423 INFO [backend.app.services.mqtt_relay] MQTT relay disabled
+2026-03-04 15:18:28,174 INFO [backend.app.services.mqtt_relay] MQTT relay disabled
+2026-03-04 15:21:19,121 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-04 15:26:19,126 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-04 15:28:47,268 INFO [backend.app.api.routes.cloud] get_filament_info called with 1 IDs: ['GFL99']
+2026-03-04 15:28:54,922 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Set chamber lights on (seq=6)
+2026-03-04 15:28:59,522 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Set chamber lights off (seq=8)
+2026-03-04 15:29:04,873 INFO [backend.app.api.routes.camera] Using chamber image protocol for A1
+2026-03-04 15:29:04,873 INFO [backend.app.api.routes.camera] Starting chamber image stream for [IP] (stream_id=2-255bf49f, model=A1)
+2026-03-04 15:29:05,677 INFO [backend.app.services.camera] Chamber image: connected to [IP]:6000
+2026-03-04 15:29:14,529 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Set chamber lights on (seq=10)
+2026-03-04 15:29:31,811 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Set chamber lights on (seq=12)
+2026-03-04 15:29:37,058 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Set chamber lights off (seq=14)
+2026-03-04 15:29:38,289 INFO [backend.app.api.routes.camera] Chamber image stream cancelled (stream_id=2-255bf49f)
+2026-03-04 15:29:38,289 INFO [backend.app.api.routes.camera] Stream 2-255bf49f cancelled
+2026-03-04 15:29:38,318 INFO [backend.app.api.routes.camera] Stopped 0 camera stream(s) for printer 2
+2026-03-04 15:29:56,261 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-03-04 15:30:30,546 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:31:19,132 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-04 15:31:25,969 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:31:26,895 INFO [backend.app.services.firmware_check] Downloading firmware from https://public-cdn.bblmw.com/upgrade/device/offline/C11/01.09.01.00/03755a3d8c/offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:31:27,088 INFO [backend.app.services.firmware_check] Firmware downloaded successfully: /app/data/firmware/offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:31:27,089 INFO [backend.app.services.firmware_update] Uploading firmware to printer 3: /offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:31:27,092 INFO [backend.app.services.bambu_ftp] FTP connecting to [IP] for upload (model=P1P, mode=prot_p, socket_timeout=30.0s)...
+2026-03-04 15:31:27,941 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:31:27,942 INFO [backend.app.services.bambu_ftp] FTP connected to [IP]
+2026-03-04 15:31:27,942 INFO [backend.app.services.bambu_ftp] FTP uploading /app/data/firmware/offline-ota-p003_v01.09.01.00-20260114204616.zip (4449230 bytes) to /offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:31:27,998 INFO [backend.app.services.bambu_ftp] FTP data channel ready in 0.1s (PASV + TLS handshake)
+2026-03-04 15:31:51,353 INFO [backend.app.services.bambu_ftp] FTP upload complete: /offline-ota-p003_v01.09.01.00-20260114204616.zip (4449230 bytes in 23.4s, 186 KB/s)
+2026-03-04 15:31:51,354 INFO [backend.app.services.bambu_ftp] FTP mode cached for [IP]: prot_p
+2026-03-04 15:31:52,539 INFO [backend.app.services.firmware_update] Firmware upload complete for printer 3
+2026-03-04 15:32:15,563 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:32:17,021 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:32:17,760 INFO [backend.app.services.firmware_check] Using cached firmware: /app/data/firmware/offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:32:17,760 INFO [backend.app.services.firmware_update] Uploading firmware to printer 3: /offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:32:17,764 INFO [backend.app.services.bambu_ftp] FTP connecting to [IP] for upload (model=P1P, mode=prot_p, socket_timeout=30.0s)...
+2026-03-04 15:32:18,560 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:32:18,560 INFO [backend.app.services.bambu_ftp] FTP connected to [IP]
+2026-03-04 15:32:18,560 INFO [backend.app.services.bambu_ftp] FTP uploading /app/data/firmware/offline-ota-p003_v01.09.01.00-20260114204616.zip (4449230 bytes) to /offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:32:18,691 INFO [backend.app.services.bambu_ftp] FTP data channel ready in 0.1s (PASV + TLS handshake)
+2026-03-04 15:32:37,657 INFO [backend.app.api.routes.cloud] get_filament_info called with 1 IDs: ['GFL99']
+2026-03-04 15:32:41,749 INFO [backend.app.api.routes.websocket] WebSocket client disconnected normally
+2026-03-04 15:32:45,524 INFO [backend.app.services.bambu_ftp] FTP upload complete: /offline-ota-p003_v01.09.01.00-20260114204616.zip (4449230 bytes in 27.0s, 161 KB/s)
+2026-03-04 15:32:45,525 INFO [backend.app.services.bambu_ftp] FTP mode cached for [IP]: prot_p
+2026-03-04 15:32:46,243 INFO [backend.app.services.firmware_update] Firmware upload complete for printer 3
+2026-03-04 15:33:06,274 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-03-04 15:33:08,161 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-03-04 15:33:09,957 INFO [backend.app.services.firmware_check] Downloading firmware from https://public-cdn.bblmw.com/upgrade/device/offline/N2S/01.07.02.00/62201b7e2c/offline-ota-n2s_v01.07.02.00-20260113213823.zip
+2026-03-04 15:33:10,319 INFO [backend.app.services.firmware_check] Firmware downloaded successfully: /app/data/firmware/offline-ota-n2s_v01.07.02.00-20260113213823.zip
+2026-03-04 15:33:10,319 INFO [backend.app.services.firmware_update] Uploading firmware to printer 2: /offline-ota-n2s_v01.07.02.00-20260113213823.zip
+2026-03-04 15:33:10,322 INFO [backend.app.services.bambu_ftp] FTP connecting to [IP] for upload (model=A1, mode=prot_p, socket_timeout=30.0s)...
+2026-03-04 15:33:11,075 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-03-04 15:33:11,075 INFO [backend.app.services.bambu_ftp] FTP connected to [IP]
+2026-03-04 15:33:11,076 INFO [backend.app.services.bambu_ftp] FTP uploading /app/data/firmware/offline-ota-n2s_v01.07.02.00-20260113213823.zip (8602600 bytes) to /offline-ota-n2s_v01.07.02.00-20260113213823.zip
+2026-03-04 15:33:11,153 INFO [backend.app.services.bambu_ftp] FTP data channel ready in 0.1s (PASV + TLS handshake)
+2026-03-04 15:34:02,268 INFO [backend.app.services.bambu_ftp] FTP upload complete: /offline-ota-n2s_v01.07.02.00-20260113213823.zip (8602600 bytes in 51.2s, 164 KB/s)
+2026-03-04 15:34:02,268 INFO [backend.app.services.bambu_ftp] FTP mode cached for [IP]: prot_p
+2026-03-04 15:34:03,237 INFO [backend.app.services.firmware_update] Firmware upload complete for printer 2
+2026-03-04 15:34:20,525 INFO [backend.app.main] [Printer 1] Broadcasting AMS change via WebSocket
+2026-03-04 15:34:44,577 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Cannot refresh AMS tray: filament loaded from external spool
+2026-03-04 15:34:52,461 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:34:58,607 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:35:00,117 INFO [backend.app.services.firmware_check] Using cached firmware: /app/data/firmware/offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:35:00,117 INFO [backend.app.services.firmware_update] Uploading firmware to printer 1: /offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:35:00,121 INFO [backend.app.services.bambu_ftp] FTP connecting to [IP] for upload (model=P1P, mode=prot_p, socket_timeout=30.0s)...
+2026-03-04 15:35:00,896 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:35:00,896 INFO [backend.app.services.bambu_ftp] FTP connected to [IP]
+2026-03-04 15:35:00,896 INFO [backend.app.services.bambu_ftp] FTP uploading /app/data/firmware/offline-ota-p003_v01.09.01.00-20260114204616.zip (4449230 bytes) to /offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:35:01,002 INFO [backend.app.services.bambu_ftp] FTP data channel ready in 0.1s (PASV + TLS handshake)
+2026-03-04 15:35:20,590 INFO [backend.app.services.bambu_ftp] FTP upload complete: /offline-ota-p003_v01.09.01.00-20260114204616.zip (4449230 bytes in 19.7s, 221 KB/s)
+2026-03-04 15:35:20,590 INFO [backend.app.services.bambu_ftp] FTP mode cached for [IP]: prot_p
+2026-03-04 15:35:21,505 INFO [backend.app.services.firmware_update] Firmware upload complete for printer 1
+2026-03-04 15:36:19,139 INFO [backend.app.main] Recorded 2 AMS sensor history entries
+2026-03-04 15:37:10,618 INFO [backend.app.main] [Printer 2] Broadcasting AMS change via WebSocket
+2026-03-04 15:37:36,779 INFO [backend.app.main] [Printer 2] Broadcasting AMS change via WebSocket
+2026-03-04 15:37:38,785 INFO [backend.app.main] [Printer 2] Broadcasting AMS change via WebSocket
+2026-03-04 15:38:22,807 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:38:24,367 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:38:24,613 INFO [backend.app.services.firmware_check] Using cached firmware: /app/data/firmware/offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:38:24,614 INFO [backend.app.services.firmware_update] Uploading firmware to printer 1: /offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:38:24,618 INFO [backend.app.services.bambu_ftp] FTP connecting to [IP] for upload (model=P1P, mode=prot_p, socket_timeout=30.0s)...
+2026-03-04 15:38:25,414 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:38:25,415 INFO [backend.app.services.bambu_ftp] FTP connected to [IP]
+2026-03-04 15:38:25,415 INFO [backend.app.services.bambu_ftp] FTP uploading /app/data/firmware/offline-ota-p003_v01.09.01.00-20260114204616.zip (4449230 bytes) to /offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:38:25,458 INFO [backend.app.services.bambu_ftp] FTP data channel ready in 0.0s (PASV + TLS handshake)
+2026-03-04 15:39:00,504 INFO [backend.app.services.bambu_ftp] FTP upload complete: /offline-ota-p003_v01.09.01.00-20260114204616.zip (4449230 bytes in 35.1s, 124 KB/s)
+2026-03-04 15:39:00,504 INFO [backend.app.services.bambu_ftp] FTP mode cached for [IP]: prot_p
+2026-03-04 15:39:02,280 INFO [backend.app.services.firmware_update] Firmware upload complete for printer 1
+2026-03-04 15:39:09,225 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:39:11,557 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:39:11,887 INFO [backend.app.services.firmware_check] Using cached firmware: /app/data/firmware/offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:39:11,887 INFO [backend.app.services.firmware_update] Uploading firmware to printer 3: /offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:39:11,891 INFO [backend.app.services.bambu_ftp] FTP connecting to [IP] for upload (model=P1P, mode=prot_p, socket_timeout=30.0s)...
+2026-03-04 15:39:12,739 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=P1P, prot_c=False)
+2026-03-04 15:39:12,739 INFO [backend.app.services.bambu_ftp] FTP connected to [IP]
+2026-03-04 15:39:12,739 INFO [backend.app.services.bambu_ftp] FTP uploading /app/data/firmware/offline-ota-p003_v01.09.01.00-20260114204616.zip (4449230 bytes) to /offline-ota-p003_v01.09.01.00-20260114204616.zip
+2026-03-04 15:39:12,797 INFO [backend.app.services.bambu_ftp] FTP data channel ready in 0.1s (PASV + TLS handshake)
+2026-03-04 15:39:49,235 INFO [backend.app.services.bambu_ftp] FTP upload complete: /offline-ota-p003_v01.09.01.00-20260114204616.zip (4449230 bytes in 36.5s, 119 KB/s)
+2026-03-04 15:39:49,236 INFO [backend.app.services.bambu_ftp] FTP mode cached for [IP]: prot_p
+2026-03-04 15:39:51,027 INFO [backend.app.services.firmware_update] Firmware upload complete for printer 3
+2026-03-04 15:40:33,246 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Firmware version: 01.07.02.00
+2026-03-04 15:40:33,552 INFO [backend.app.main] [Printer 2] Broadcasting AMS change via WebSocket
+2026-03-04 15:41:19,144 INFO [backend.app.main] Recorded 2 AMS sensor history entries
+2026-03-04 15:43:13,583 INFO [backend.app.main] [Printer 1] Broadcasting AMS change via WebSocket
+2026-03-04 15:43:17,611 INFO [backend.app.main] [Printer 1] Broadcasting AMS change via WebSocket
+2026-03-04 15:44:41,977 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Firmware version: 01.09.01.00
+2026-03-04 15:46:02,392 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Firmware version: 01.09.01.00
+2026-03-04 15:46:19,155 INFO [backend.app.main] Recorded 2 AMS sensor history entries
+2026-03-04 15:46:57,054 INFO [backend.app.main] [SNAPSHOT] Capturing fresh frame for printer 3
+2026-03-04 15:46:57,054 INFO [backend.app.services.camera] Capturing camera frame bytes from [IP] using chamber image protocol (model: P1P)
+2026-03-04 15:46:58,601 INFO [backend.app.main] [SNAPSHOT] Fresh camera frame: 25889 bytes
+2026-03-04 15:46:58,601 INFO [backend.app.main] [HMS] Sent notification for 1 new error(s) on printer 3
+2026-03-04 15:51:19,159 INFO [backend.app.main] Recorded 2 AMS sensor history entries
+2026-03-04 15:53:23,150 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] MQTT disconnected: rc=Keep alive timeout, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-03-04 15:53:23,150 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] MQTT disconnected: rc=Keep alive timeout, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-03-04 15:54:07,313 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Connection stale - no message for 67.2s
+2026-03-04 15:56:19,167 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-04 15:58:04,230 INFO [backend.app.api.routes.support] Log level changed to DEBUG
+2026-03-04 15:58:04,230 INFO [backend.app.api.routes.bug_report] Bug report: temporarily enabled debug logging
+2026-03-04 15:58:04,230 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] request_status_update: not connected
+2026-03-04 15:58:04,230 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting status update (pushall)
+2026-03-04 15:58:04,230 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] request_status_update: not connected
+2026-03-04 15:58:04,267 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received gcode_state: IDLE, gcode_file: , subtask_name: 
+2026-03-04 15:58:04,267 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '1', 'tray_exist_bits': '1', 'tray_is_bbl_bits': '1', 'tray_tar': '255', 'tray_now': '254', 'tray_pre': '254', 'tray_read_done_bits': '1', 'tray_reading_bits': '0', 'version': 2, 'insert_flag': True, 'power_on_flag': False}
+2026-03-04 15:58:04,267 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] tray_now updated: 254
+2026-03-04 15:58:04,267 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Merged AMS data: 1 new units, 1 total
+2026-03-04 15:58:04,267 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] AMS 0 info=1001 (bit8=1) -> extruder 0
+2026-03-04 15:58:04,267 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-03-04 15:58:04,267 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-03-04 15:58:04,268 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-04 15:58:04,268 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] chamber_temper raw value: 5.0
+2026-03-04 15:58:04,268 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-03-04 15:58:04,268 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-03-04 15:58:04,268 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-03-04 15:58:04,268 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] HMS data received: []
+2026-03-04 15:58:04,268 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'enable', 'timelapse': 'disable', 'resolution': '', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-03-04 15:58:04,268 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -50dBm
+2026-03-04 15:58:04,268 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'off'}]
+2026-03-04 15:58:04,268 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] gcode_state: IDLE -> IDLE, file: , subtask: 
+2026-03-04 15:58:06,277 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-04 15:58:06,277 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -51dBm
+2026-03-04 15:58:07,560 DEBUG [backend.app.api.routes.printers] API returning ams_mapping: [], ams_extruder_map: {}
+2026-03-04 15:58:07,560 DEBUG [backend.app.api.routes.printers] Using tray_now directly as global ID: 254
+2026-03-04 15:58:14,305 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-04 15:58:14,306 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -49dBm
+2026-03-04 15:58:16,328 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-04 15:58:16,328 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -51dBm
+2026-03-04 15:58:18,288 DEBUG [backend.app.api.routes.printers] API returning ams_mapping: [], ams_extruder_map: {'0': 0}
+2026-03-04 15:58:18,288 DEBUG [backend.app.api.routes.printers] Using tray_now directly as global ID: 254
+2026-03-04 15:58:18,328 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-04 15:58:18,328 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -50dBm
+2026-03-04 15:58:20,339 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-04 15:58:20,339 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -51dBm
+2026-03-04 15:58:23,458 DEBUG [backend.app.api.routes.printers] API returning ams_mapping: [], ams_extruder_map: {'0': 0}
+2026-03-04 15:58:23,459 DEBUG [backend.app.api.routes.printers] Using tray_now directly as global ID: 255
+2026-03-04 15:58:24,352 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-04 15:58:24,353 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -49dBm
+2026-03-04 15:58:24,460 DEBUG [backend.app.main] [A1] Runtime tracking: not connected
+2026-03-04 15:58:24,460 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-04 15:58:26,363 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-04 15:58:26,363 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -51dBm
+2026-03-04 15:58:32,383 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
