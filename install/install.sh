@@ -16,6 +16,7 @@
 #   --log-dir PATH     Log directory (default: INSTALL_PATH/logs)
 #   --debug            Enable debug mode
 #   --log-level LEVEL  Log level: DEBUG, INFO, WARNING, ERROR (default: INFO)
+#   --branch BRANCH    Git branch to install (default: main)
 #   --no-service       Skip systemd service setup (Linux only)
 #   --set-system-tz    Set system timezone to match (for unattended installs)
 #   --yes, -y          Non-interactive mode, accept defaults
@@ -55,6 +56,7 @@ NON_INTERACTIVE="false"
 OS_TYPE=""
 PKG_MANAGER=""
 PYTHON_CMD=""
+BRANCH=""
 SERVICE_USER="bambuddy"
 
 # -----------------------------------------------------------------------------
@@ -156,6 +158,7 @@ show_help() {
     echo "  --log-dir PATH     Log directory (default: INSTALL_PATH/logs)"
     echo "  --debug            Enable debug mode"
     echo "  --log-level LEVEL  Log level: DEBUG, INFO, WARNING, ERROR (default: INFO)"
+    echo "  --branch BRANCH    Git branch to install (default: main)"
     echo "  --no-service       Skip systemd service setup (Linux only)"
     echo "  --set-system-tz    Set system timezone to match (for unattended installs)"
     echo "  --yes, -y          Non-interactive mode, accept defaults"
@@ -338,17 +341,18 @@ download_bambuddy() {
         git config --global --add safe.directory "$INSTALL_PATH" 2>/dev/null || true
         cd "$INSTALL_PATH"
         git fetch origin
-        git reset --hard origin/main
+        git checkout "$BRANCH" 2>/dev/null || git checkout -b "$BRANCH" "origin/$BRANCH"
+        git reset --hard "origin/$BRANCH"
         # Ensure correct ownership after update
         sudo chown -R "$SERVICE_USER:$SERVICE_USER" "$INSTALL_PATH" 2>/dev/null || true
     else
         sudo mkdir -p "$INSTALL_PATH"
         sudo chown "$SERVICE_USER:$SERVICE_USER" "$INSTALL_PATH" 2>/dev/null || true
-        git clone https://github.com/maziggy/bambuddy.git "$INSTALL_PATH"
+        git clone --branch "$BRANCH" https://github.com/maziggy/bambuddy.git "$INSTALL_PATH"
         sudo chown -R "$SERVICE_USER:$SERVICE_USER" "$INSTALL_PATH" 2>/dev/null || true
     fi
 
-    log_success "BamBuddy downloaded to $INSTALL_PATH"
+    log_success "BamBuddy downloaded to $INSTALL_PATH (branch: $BRANCH)"
 }
 
 setup_virtualenv() {
@@ -656,6 +660,10 @@ parse_args() {
                 LOG_LEVEL="$2"
                 shift 2
                 ;;
+            --branch)
+                BRANCH="$2"
+                shift 2
+                ;;
             --no-service)
                 SKIP_SERVICE="true"
                 shift
@@ -687,6 +695,9 @@ gather_config() {
 
     # Installation path
     [[ -z "$INSTALL_PATH" ]] && prompt "Installation directory" "$DEFAULT_INSTALL_PATH" INSTALL_PATH
+
+    # Branch
+    [[ -z "$BRANCH" ]] && prompt "Git branch" "main" BRANCH
 
     # Port
     [[ -z "$PORT" ]] && prompt "Port to listen on" "$DEFAULT_PORT" PORT
@@ -749,6 +760,11 @@ gather_config() {
     echo -e "${BOLD}Installation Summary${NC}"
     echo -e "${CYAN}─────────────────────────────────────────${NC}"
     echo -e "  Install path:  ${GREEN}$INSTALL_PATH${NC}"
+    if [[ "$BRANCH" != "main" ]]; then
+        echo -e "  Branch:        ${YELLOW}$BRANCH${NC} (beta)"
+    else
+        echo -e "  Branch:        ${GREEN}$BRANCH${NC}"
+    fi
     echo -e "  Port:          ${GREEN}$PORT${NC}"
     echo -e "  Bind address:  ${GREEN}$BIND_ADDRESS${NC}"
     echo -e "  Timezone:      ${GREEN}$TIMEZONE${NC}"
