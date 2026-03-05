@@ -11,7 +11,8 @@ All notable changes to Bambuddy will be documented in this file.
 - **Print Queue Scheduler Diagnostics** ([#616](https://github.com/maziggy/bambuddy/issues/616)) — Added diagnostic logging to the print queue scheduler to help diagnose why queued prints aren't starting. After each queue check, the scheduler now logs a skip summary (how many items were skipped due to manual_start, scheduled_time, etc.) and for each busy printer, logs the exact state preventing it from being considered idle (connected status, printer state, plate_cleared flag). Previously the scheduler only logged "found N pending items" with no visibility into why items were skipped.
 
 ### Fixed
-- **Bug Report Bubble Overlapping Toasts** — Moved the bug report bubble into the toast container so it always sits at the bottom-right with toast notifications and upload progress stacking above it, instead of overlapping on top of each other.
+- **Bug Report Bubble Overlapping Toasts** — Moved toast notifications and upload progress up so they stack above the bug report bubble instead of overlapping on top of each other.
+- **Virtual Printer: Bind-TLS Proxy Handshake Failure on OpenSSL 3.x** — The TLS proxy connecting to the printer's bind port (3002) failed with `SSLV3_ALERT_HANDSHAKE_FAILURE` on systems with OpenSSL 3.x (e.g. Python 3.12+) because the default cipher set excludes plain RSA key exchange, which is the only mode Bambu printers support. Added `AES256-GCM-SHA384` and `AES128-GCM-SHA256` to the client SSL context's cipher list.
 - **Windows: Server Shuts Down After 60 Seconds** ([#605](https://github.com/maziggy/bambuddy/issues/605)) — On Windows, terminating orphaned ffmpeg camera processes broadcast `CTRL_C_EVENT` to the entire process group, causing uvicorn to interpret it as a user-initiated shutdown. ffmpeg is now spawned in its own process group (`CREATE_NEW_PROCESS_GROUP`) so cleanup no longer affects the server. Reported by @Reactantvr.
 
 ## [0.2.2b1] - 2026-03-03
