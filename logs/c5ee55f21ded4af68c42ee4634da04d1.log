@@ -1,0 +1,55 @@
+2026-03-05 12:01:04,344 INFO [root] Logging to file: /app/logs/bambuddy.log
+2026-03-05 12:01:04,345 INFO [root] Bambuddy starting - debug=False, log_level=INFO
+2026-03-05 12:01:05,014 INFO [backend.app.core.database] Created default group: Administrators
+2026-03-05 12:01:05,014 INFO [backend.app.core.database] Created default group: Operators
+2026-03-05 12:01:05,014 INFO [backend.app.core.database] Created default group: Viewers
+2026-03-05 12:01:05,044 INFO [backend.app.core.database] Seeded 91 default spool catalog entries
+2026-03-05 12:01:05,173 INFO [backend.app.core.database] Seeded 638 default color catalog entries
+2026-03-05 12:01:05,180 INFO [backend.app.services.mqtt_relay] MQTT relay disabled
+2026-03-05 12:01:05,183 INFO [backend.app.services.background_dispatch] Background dispatch dispatcher started
+2026-03-05 12:01:05,183 INFO [backend.app.services.smart_plug_manager] Smart plug scheduler started
+2026-03-05 12:01:05,185 INFO [backend.app.services.print_scheduler] Print scheduler started
+2026-03-05 12:01:05,188 INFO [backend.app.services.notification_service] Notification digest scheduler started
+2026-03-05 12:01:05,188 INFO [backend.app.services.github_backup] Starting GitHub backup scheduler
+2026-03-05 12:01:05,188 INFO [backend.app.main] AMS history recording started
+2026-03-05 12:01:05,188 INFO [backend.app.main] Printer runtime tracking started
+2026-03-05 12:01:05,188 INFO [backend.app.main] SpoolBuddy watchdog started
+2026-03-05 12:01:05,189 INFO [backend.app.main] Camera stream cleanup started
+2026-03-05 12:01:05,207 INFO [root] Virtual printer manager synced from database
+2026-03-05 12:01:53,483 INFO [backend.app.api.routes.auth] Creating admin [USER]: [USER]
+2026-03-05 12:01:53,489 INFO [backend.app.api.routes.auth] Added new admin [USER] to Administrators group
+2026-03-05 12:01:53,489 INFO [backend.app.api.routes.auth] Admin [USER] added to session: [USER]
+2026-03-05 12:01:53,495 INFO [backend.app.api.routes.auth] Admin [USER] created successfully: 1
+2026-03-05 12:01:53,495 INFO [backend.app.api.routes.auth] Setup completed: auth_enabled=True, admin_created=True
+2026-03-05 12:01:57,673 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-05 12:01:57,673 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-05 12:01:57,673 INFO [backend.app.api.routes.websocket] Sent initial status for 0 printers
+2026-03-05 12:43:17,892 INFO [backend.app.services.discovery] Starting SSDP discovery on port 2021 for Bambu Lab printers...
+2026-03-05 12:48:03,463 INFO [backend.app.services.camera] Found ffmpeg at: /usr/bin/ffmpeg
+2026-03-05 12:48:04,488 INFO [backend.app.services.mqtt_relay] MQTT relay disabled
+2026-03-05 12:50:49,025 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-05 12:50:49,025 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-05 12:50:49,026 INFO [backend.app.api.routes.websocket] Sent initial status for 0 printers
+2026-03-05 13:33:56,718 INFO [backend.app.api.routes.websocket] WebSocket client disconnected normally
+2026-03-05 13:33:56,719 INFO [backend.app.api.routes.websocket] WebSocket client disconnected normally
+2026-03-06 09:29:12,753 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-06 09:29:12,753 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-06 09:29:12,753 INFO [backend.app.api.routes.websocket] Sent initial status for 0 printers
+2026-03-06 09:29:29,414 INFO [backend.app.api.routes.websocket] WebSocket client disconnected normally
+2026-03-06 09:41:54,963 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-06 09:41:54,963 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-06 09:41:54,963 INFO [backend.app.api.routes.websocket] Sent initial status for 0 printers
+2026-03-06 09:45:40,629 INFO [backend.app.api.routes.websocket] WebSocket client disconnected normally
+2026-03-07 11:26:03,741 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-07 11:26:03,753 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-07 11:26:03,753 INFO [backend.app.api.routes.websocket] Sent initial status for 0 printers
+2026-03-07 11:26:53,691 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-07 11:26:53,691 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-07 11:26:53,692 INFO [backend.app.api.routes.websocket] Sent initial status for 0 printers
+2026-03-07 11:32:33,918 INFO [backend.app.api.routes.websocket] WebSocket client disconnected normally
+2026-03-07 11:32:46,837 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-07 11:32:46,838 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-07 11:32:46,838 INFO [backend.app.api.routes.websocket] Sent initial status for 0 printers
+2026-03-07 11:33:35,120 INFO [backend.app.api.routes.websocket] WebSocket client disconnected normally
+2026-03-07 11:53:53,294 INFO [backend.app.api.routes.support] Log level changed to DEBUG
+2026-03-07 11:53:53,385 INFO [backend.app.api.routes.bug_report] Bug report: temporarily enabled debug logging
