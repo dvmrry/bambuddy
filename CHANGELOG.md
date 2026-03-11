@@ -4,6 +4,9 @@ All notable changes to Bambuddy will be documented in this file.
 
 ## [0.2.2] - Unreleased
 
+### Fixed
+- **Local Profiles Not Shown in AMS Slot Configuration** — Imported local filament profiles were hidden in the AMS slot configure modal when a printer model was set. The `compatible_printers` filter parsed the stored JSON array as a semicolon-delimited string, so the matching always failed and every local preset was silently skipped. Removed the filter entirely — user-imported profiles should be available on any printer.
+
 ## [0.2.2b3] - 2026-03-11
 
 ### New Features

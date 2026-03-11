@@ -524,22 +524,12 @@ export function ConfigureAmsSlotModal({
       }
     }
 
-    // 2. Local presets
+    // 2. Local presets (always shown — user-imported profiles work on any printer)
     if (localPresets?.filament) {
       for (const lp of localPresets.filament) {
         const localId = `local_${lp.id}`;
         const isSaved = savedId === localId;
         if (!isSaved && query && !lp.name.toLowerCase().includes(query)) continue;
-        // Filter by compatible_printers if set (skip for saved preset)
-        if (!isSaved && printerModel && lp.compatible_printers) {
-          const compatModels = lp.compatible_printers.split(';').map(p => {
-            // Extract model from "BBL X1C" → "X1C"
-            const trimmed = p.trim();
-            const bblMatch = trimmed.match(/^BBL\s+(.+)/i);
-            return bblMatch ? bblMatch[1].trim().toUpperCase() : trimmed.toUpperCase();
-          }).filter(Boolean);
-          if (compatModels.length > 0 && !compatModels.includes(printerModel.toUpperCase())) continue;
-        }
         items.push({ id: localId, name: lp.name, source: 'local', isUser: false });
       }
     }
