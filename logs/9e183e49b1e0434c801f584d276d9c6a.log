@@ -1,0 +1,200 @@
+2026-03-08 13:05:52,649 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Request topic subscription accepted. ams_mapping capture enabled for slicer-initiated prints.
+2026-03-08 13:05:54,328 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] MQTT disconnected: rc=Unspecified error, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-03-08 13:05:54,328 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Disconnected shortly after request topic subscription. Disabling request topic for this printer.
+2026-03-08 13:05:54,571 INFO [backend.app.services.background_dispatch] Background dispatch dispatcher started
+2026-03-08 13:05:54,571 INFO [backend.app.services.smart_plug_manager] Smart plug scheduler started
+2026-03-08 13:05:54,573 INFO [backend.app.services.print_scheduler] Print scheduler started
+2026-03-08 13:05:54,577 INFO [backend.app.services.notification_service] Notification digest scheduler started
+2026-03-08 13:05:54,577 INFO [backend.app.services.github_backup] Starting GitHub backup scheduler
+2026-03-08 13:05:54,578 INFO [backend.app.main] AMS history recording started
+2026-03-08 13:05:54,578 INFO [backend.app.main] Printer runtime tracking started
+2026-03-08 13:05:54,578 INFO [backend.app.main] SpoolBuddy watchdog started
+2026-03-08 13:05:54,578 INFO [backend.app.main] Camera stream cleanup started
+2026-03-08 13:05:54,622 INFO [root] Virtual printer manager synced from database
+2026-03-08 13:05:56,108 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Firmware version: 01.07.00.00
+2026-03-08 13:05:56,921 INFO [backend.app.main] [Printer 2] Broadcasting AMS change via WebSocket
+2026-03-08 13:06:04,616 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 13:07:09,617 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Connection stale - no message for 76.9s
+2026-03-08 13:11:04,619 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 13:16:04,630 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 13:21:04,650 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 13:26:04,668 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 13:31:04,684 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 13:36:04,695 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 13:41:04,704 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 13:46:04,719 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 13:51:04,728 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 13:56:04,737 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:01:04,748 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:06:04,767 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:11:04,803 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:16:04,811 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:21:04,826 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:26:04,839 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:31:04,848 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:36:04,854 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:41:04,863 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:46:04,875 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:51:04,879 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 14:56:04,885 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-08 15:01:04,894 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 12:51:33,762 INFO [root] Logging to file: /app/logs/bambuddy.log
+2026-03-11 12:51:33,763 INFO [root] Bambuddy starting - debug=False, log_level=INFO
+2026-03-11 12:51:34,988 INFO [backend.app.services.mqtt_relay] MQTT relay disabled
+2026-03-11 12:51:35,181 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Request topic subscription accepted. ams_mapping capture enabled for slicer-initiated prints.
+2026-03-11 12:51:36,787 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] MQTT disconnected: rc=Unspecified error, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-03-11 12:51:36,788 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Disconnected shortly after request topic subscription. Disabling request topic for this printer.
+2026-03-11 12:51:37,030 INFO [backend.app.services.background_dispatch] Background dispatch dispatcher started
+2026-03-11 12:51:37,030 INFO [backend.app.services.smart_plug_manager] Smart plug scheduler started
+2026-03-11 12:51:37,034 INFO [backend.app.services.print_scheduler] Print scheduler started
+2026-03-11 12:51:37,037 INFO [backend.app.services.notification_service] Notification digest scheduler started
+2026-03-11 12:51:37,038 INFO [backend.app.services.github_backup] Starting GitHub backup scheduler
+2026-03-11 12:51:37,038 INFO [backend.app.main] AMS history recording started
+2026-03-11 12:51:37,038 INFO [backend.app.main] Printer runtime tracking started
+2026-03-11 12:51:37,038 INFO [backend.app.main] SpoolBuddy watchdog started
+2026-03-11 12:51:37,038 INFO [backend.app.main] Camera stream cleanup started
+2026-03-11 12:51:37,132 INFO [root] Virtual printer manager synced from database
+2026-03-11 12:51:38,568 INFO [backend.app.main] [Printer 2] Broadcasting AMS change via WebSocket
+2026-03-11 12:51:38,571 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Firmware version: 01.07.00.00
+2026-03-11 12:51:47,121 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 12:52:52,121 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Connection stale - no message for 76.9s
+2026-03-11 12:56:47,124 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:01:47,127 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:06:47,129 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:11:47,137 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:16:47,146 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:21:47,157 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:26:47,166 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:31:47,174 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:36:47,183 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:41:47,192 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:46:47,202 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:51:47,214 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 13:56:47,223 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:01:47,227 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:06:47,236 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:11:47,244 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:16:47,253 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:21:47,258 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:26:47,270 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:31:47,279 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:36:47,289 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:41:47,297 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:46:47,309 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:51:47,314 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 14:56:47,323 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:01:47,335 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:06:47,346 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:11:47,356 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:16:47,366 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:21:47,375 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:26:47,383 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:31:47,395 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:36:47,404 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:41:47,416 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:46:47,424 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:51:47,431 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 15:56:47,441 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:01:47,453 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:06:47,465 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:11:47,475 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:16:47,483 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:21:47,492 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:26:47,504 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:31:47,513 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:36:47,522 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:41:47,534 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:46:47,542 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:51:47,550 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 16:56:47,562 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:01:47,584 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:06:47,595 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:11:47,608 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:16:47,612 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:21:47,622 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:26:47,626 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:31:47,635 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:36:47,647 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:41:47,655 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:46:47,660 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:51:47,670 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 17:56:47,679 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:01:47,689 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:06:47,701 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:11:47,710 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:16:47,723 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:21:47,732 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:26:47,746 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:31:47,759 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:36:47,766 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:41:47,777 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:46:47,783 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:51:47,794 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 18:56:47,805 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:01:47,814 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:06:47,824 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:11:47,836 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:16:47,840 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:21:47,850 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:26:47,860 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:31:47,870 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:36:47,882 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:41:47,896 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:46:47,908 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:51:47,920 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 19:56:47,931 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 20:01:47,939 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 20:06:47,948 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 20:11:47,961 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 20:16:47,971 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 20:21:47,981 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 20:22:58,559 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-11 20:22:58,560 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-11 20:22:58,567 INFO [backend.app.api.routes.websocket] Sent initial status for 2 printers
+2026-03-11 20:22:59,385 INFO [backend.app.services.firmware_check] Got Bambu Lab build ID: 9OfDbQxl3uiKC2--C1_Nl
+2026-03-11 20:23:03,097 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] MQTT disconnected: rc=Normal disconnection, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-03-11 20:23:03,193 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Request topic subscription accepted. ams_mapping capture enabled for slicer-initiated prints.
+2026-03-11 20:24:04,147 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Connection stale - no message for 60.9s
+2026-03-11 20:25:04,712 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] MQTT disconnected: rc=Normal disconnection, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-03-11 20:25:04,800 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Request topic subscription accepted. ams_mapping capture enabled for slicer-initiated prints.
+2026-03-11 20:26:05,753 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Connection stale - no message for 60.9s
+2026-03-11 20:26:47,987 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-11 20:27:43,576 INFO [backend.app.api.routes.support] Log level changed to DEBUG
+2026-03-11 20:27:43,576 INFO [backend.app.api.routes.bug_report] Bug report: temporarily enabled debug logging
+2026-03-11 20:27:43,576 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting status update (pushall)
+2026-03-11 20:27:43,576 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] request_status_update: not connected
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received gcode_state: FAILED, gcode_file: , subtask_name: Roki Rings Box Filler 2 - Pika_Essentials
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '1', 'tray_exist_bits': '0', 'tray_is_bbl_bits': '0', 'tray_tar': '255', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': '0', 'tray_reading_bits': '0', 'version': 176, 'insert_flag': True, 'power_on_flag': False}
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] tray_now updated: 255
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Merged AMS data: 1 new units, 1 total
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] chamber_temper raw value: 5.0
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] HMS data received: []
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'enable', 'timelapse': 'disable', 'resolution': '', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -40dBm
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'on'}]
+2026-03-11 20:27:43,666 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] gcode_state: FAILED -> FAILED, file: , subtask: Roki Rings Box Filler 2 - Pika_Essentials
+2026-03-11 20:27:45,670 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-11 20:27:45,670 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -42dBm
+2026-03-11 20:27:47,678 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-11 20:27:47,678 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -41dBm
+2026-03-11 20:27:49,687 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-11 20:27:49,687 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -40dBm
+2026-03-11 20:27:53,861 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-11 20:27:55,703 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-11 20:27:55,703 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -41dBm
+2026-03-11 20:27:57,712 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-11 20:27:59,183 DEBUG [backend.app.api.routes.printers] API returning ams_mapping: [], ams_extruder_map: {}
+2026-03-11 20:27:59,183 DEBUG [backend.app.api.routes.printers] Using tray_now directly as global ID: 255
+2026-03-11 20:28:01,721 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-11 20:28:05,734 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-11 20:28:05,734 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -42dBm
+2026-03-11 20:28:05,939 DEBUG [backend.app.api.routes.printers] API returning ams_mapping: [], ams_extruder_map: {}
+2026-03-11 20:28:05,939 DEBUG [backend.app.api.routes.printers] Using tray_now directly as global ID: 255
+2026-03-11 20:28:07,742 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-11 20:28:07,742 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -41dBm
+2026-03-11 20:28:11,752 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
