@@ -1,0 +1,200 @@
+2026-03-13 13:12:11,340 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:11,341 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:11,341 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:11,341 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:11,342 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:11,343 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5fe2aa1c0>
+2026-03-13 13:12:11,343 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x78a5e4cf7f70> server_hostname='hass.fire-devils.org' timeout=10.0
+2026-03-13 13:12:11,359 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e4cc7840>
+2026-03-13 13:12:11,360 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:11,361 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:11 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:11,362 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/sensor.smart_switch_23091535799613510d0248e1e9dab3f2_power "HTTP/1.1 200 OK"
+2026-03-13 13:12:11,362 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:11,363 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:11,363 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:11,364 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:11,364 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:11,364 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:11,364 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:11,365 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:11,367 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:11,368 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:11,368 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:11,368 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:11,368 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:11,373 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:11 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:11,374 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/switch.bambuswitch_heizung "HTTP/1.1 200 OK"
+2026-03-13 13:12:11,374 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:11,375 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:11,375 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:11,376 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:11,377 DEBUG [httpcore.connection] close.started
+2026-03-13 13:12:11,377 DEBUG [httpcore.connection] close.complete
+2026-03-13 13:12:11,378 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:11 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:11,379 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/sensor.smart_switch_23091535799613510d0248e1e9dab3f2_energy "HTTP/1.1 200 OK"
+2026-03-13 13:12:11,379 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:11,380 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:11,380 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:11,381 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:11,382 DEBUG [httpcore.connection] close.started
+2026-03-13 13:12:11,383 DEBUG [httpcore.connection] close.complete
+2026-03-13 13:12:11,769 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for BB P1S
+2026-03-13 13:12:21,586 DEBUG [httpcore.connection] connect_tcp.started host='hass.fire-devils.org' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-13 13:12:21,586 DEBUG [httpcore.connection] connect_tcp.started host='hass.fire-devils.org' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-13 13:12:21,591 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5fe2a98b0>
+2026-03-13 13:12:21,592 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x78a5fe1e82d0> server_hostname='hass.fire-devils.org' timeout=10.0
+2026-03-13 13:12:21,593 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5fe2a83c0>
+2026-03-13 13:12:21,594 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x78a60023bbb0> server_hostname='hass.fire-devils.org' timeout=10.0
+2026-03-13 13:12:21,609 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e65f5860>
+2026-03-13 13:12:21,610 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:21,619 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:21,620 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:21,620 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:21,620 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:21,621 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e65f4f50>
+2026-03-13 13:12:21,621 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:21,622 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:21,622 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:21,622 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:21,623 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:21,805 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:21 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:21,806 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/switch.bambuswitch_heizung "HTTP/1.1 200 OK"
+2026-03-13 13:12:21,807 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:21,807 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:21,809 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:21,809 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:21,811 DEBUG [httpcore.connection] close.started
+2026-03-13 13:12:21,812 DEBUG [httpcore.connection] close.complete
+2026-03-13 13:12:21,814 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:21 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:21,815 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/switch.bambuswitch_printer "HTTP/1.1 200 OK"
+2026-03-13 13:12:21,816 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:21,817 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:21,818 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:21,818 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:21,820 DEBUG [httpcore.connection] close.started
+2026-03-13 13:12:21,821 DEBUG [httpcore.connection] close.complete
+2026-03-13 13:12:21,871 DEBUG [httpcore.connection] connect_tcp.started host='hass.fire-devils.org' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-13 13:12:21,907 DEBUG [httpcore.connection] connect_tcp.started host='hass.fire-devils.org' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-13 13:12:21,910 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e7b488c0>
+2026-03-13 13:12:21,911 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x78a5e4cf5ef0> server_hostname='hass.fire-devils.org' timeout=10.0
+2026-03-13 13:12:21,913 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e65f5b80>
+2026-03-13 13:12:21,914 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x78a5fc12acb0> server_hostname='hass.fire-devils.org' timeout=10.0
+2026-03-13 13:12:21,929 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e65f7cf0>
+2026-03-13 13:12:21,930 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:21,941 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:21,941 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:21,941 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:21,942 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:21,942 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e65f7ac0>
+2026-03-13 13:12:21,943 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:21,944 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:21,944 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:21,945 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:21,945 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:21,950 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:21 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:21,950 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/switch.bambuswitch_heizung "HTTP/1.1 200 OK"
+2026-03-13 13:12:21,951 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:21,951 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:21,952 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:21,952 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:21,953 DEBUG [httpcore.connection] close.started
+2026-03-13 13:12:21,954 DEBUG [httpcore.connection] close.complete
+2026-03-13 13:12:21,963 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:21 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:21,964 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/sensor.smart_switch_23091535799613510d0248e1e9dab3f2_power "HTTP/1.1 200 OK"
+2026-03-13 13:12:21,964 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:21,964 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:21,965 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:21,965 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:21,967 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:21,968 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:21,968 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:21,968 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:21,968 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:21,977 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:21 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:21,977 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/sensor.smart_switch_23091535799613510d0248e1e9dab3f2_energy "HTTP/1.1 200 OK"
+2026-03-13 13:12:21,978 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:21,978 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:21,979 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:21,979 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:21,980 DEBUG [httpcore.connection] close.started
+2026-03-13 13:12:21,980 DEBUG [httpcore.connection] close.complete
+2026-03-13 13:12:25,389 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-13 13:12:32,384 DEBUG [httpcore.connection] connect_tcp.started host='hass.fire-devils.org' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-13 13:12:32,412 DEBUG [httpcore.connection] connect_tcp.started host='hass.fire-devils.org' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-13 13:12:32,415 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5fe3707d0>
+2026-03-13 13:12:32,415 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x78a5fe1e9950> server_hostname='hass.fire-devils.org' timeout=10.0
+2026-03-13 13:12:32,417 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5fe371ef0>
+2026-03-13 13:12:32,418 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x78a5fc16bf70> server_hostname='hass.fire-devils.org' timeout=10.0
+2026-03-13 13:12:32,431 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e65f5e00>
+2026-03-13 13:12:32,432 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:32,441 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:32,441 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:32,442 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:32,442 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:32,442 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e65f4230>
+2026-03-13 13:12:32,443 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:32,444 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:32,444 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:32,444 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:32,444 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:32,597 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:32,598 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/switch.bambuswitch_printer "HTTP/1.1 200 OK"
+2026-03-13 13:12:32,598 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:32,599 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:32,599 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:32,600 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:32,601 DEBUG [httpcore.connection] close.started
+2026-03-13 13:12:32,601 DEBUG [httpcore.connection] close.complete
+2026-03-13 13:12:32,603 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:32,604 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/switch.bambuswitch_heizung "HTTP/1.1 200 OK"
+2026-03-13 13:12:32,604 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:32,605 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:32,605 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:32,606 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:32,607 DEBUG [httpcore.connection] close.started
+2026-03-13 13:12:32,608 DEBUG [httpcore.connection] close.complete
+2026-03-13 13:12:32,655 DEBUG [httpcore.connection] connect_tcp.started host='hass.fire-devils.org' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-13 13:12:32,662 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e7b4ac60>
+2026-03-13 13:12:32,663 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x78a5fc1000f0> server_hostname='hass.fire-devils.org' timeout=10.0
+2026-03-13 13:12:32,697 DEBUG [httpcore.connection] connect_tcp.started host='hass.fire-devils.org' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-13 13:12:32,709 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5fe1df890>
+2026-03-13 13:12:32,710 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:32,711 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:32,712 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:32,712 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:32,712 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:32,714 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e7b4ac60>
+2026-03-13 13:12:32,714 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x78a5fd3874d0> server_hostname='hass.fire-devils.org' timeout=10.0
+2026-03-13 13:12:32,731 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x78a5e65f4c30>
+2026-03-13 13:12:32,732 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:32,733 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:32,734 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/sensor.smart_switch_23091535799613510d0248e1e9dab3f2_power "HTTP/1.1 200 OK"
+2026-03-13 13:12:32,734 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:32,735 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:32,735 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:32,736 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:32,736 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:32,736 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:32,737 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:32,737 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:32,739 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:32,740 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-13 13:12:32,741 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-13 13:12:32,741 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-13 13:12:32,741 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-13 13:12:32,745 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:32,745 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/switch.bambuswitch_heizung "HTTP/1.1 200 OK"
+2026-03-13 13:12:32,745 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:32,746 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:32,746 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:32,747 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:32,748 DEBUG [httpcore.connection] close.started
+2026-03-13 13:12:32,748 DEBUG [httpcore.connection] close.complete
+2026-03-13 13:12:32,750 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Mar 2026 12:12:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Referrer-Policy', b'no-referrer'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-DNS-Prefetch-Control', b'off'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Strict-Transport-Security', b'max-age=63072000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip')])
+2026-03-13 13:12:32,750 INFO [httpx] HTTP Request: GET https://hass.fire-devils.org/api/states/sensor.smart_switch_23091535799613510d0248e1e9dab3f2_energy "HTTP/1.1 200 OK"
+2026-03-13 13:12:32,751 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-13 13:12:32,751 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-13 13:12:32,752 DEBUG [httpcore.http11] response_closed.started
+2026-03-13 13:12:32,752 DEBUG [httpcore.http11] response_closed.complete
+2026-03-13 13:12:32,753 DEBUG [httpcore.connection] close.started
+2026-03-13 13:12:32,754 DEBUG [httpcore.connection] close.complete
