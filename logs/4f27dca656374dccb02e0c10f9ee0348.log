@@ -1,0 +1,200 @@
+2026-03-17 00:01:58,461 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 3/3
+2026-03-17 00:01:58,462 ERROR [backend.app.services.bambu_mqtt] [[SERIAL]] Failed to get K-profiles after 3 attempts
+2026-03-17 00:02:17,929 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:02:18,076 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:02:22,932 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 1/3
+2026-03-17 00:02:23,077 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 1/3
+2026-03-17 00:02:23,433 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 2/3)
+2026-03-17 00:02:23,579 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 2/3)
+2026-03-17 00:02:24,095 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-17 00:02:28,434 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 2/3
+2026-03-17 00:02:28,581 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 2/3
+2026-03-17 00:02:28,914 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=20055, 0 profiles, expected=0.4
+2026-03-17 00:02:28,915 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:02:28,934 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 3/3)
+2026-03-17 00:02:29,082 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 3/3)
+2026-03-17 00:02:33,936 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 3/3
+2026-03-17 00:02:33,936 ERROR [backend.app.services.bambu_mqtt] [[SERIAL]] Failed to get K-profiles after 3 attempts
+2026-03-17 00:02:34,084 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 3/3
+2026-03-17 00:02:34,084 ERROR [backend.app.services.bambu_mqtt] [[SERIAL]] Failed to get K-profiles after 3 attempts
+2026-03-17 00:02:49,630 INFO [backend.app.main] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-03-17 00:02:49,631 INFO [backend.app.services.camera] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-03-17 00:02:52,887 INFO [backend.app.main] [SNAPSHOT] Fresh camera frame: 121709 bytes
+2026-03-17 00:02:52,889 INFO [backend.app.main] [HMS] Sent notification for 1 new error(s) on printer 1
+2026-03-17 00:05:40,747 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:05:45,748 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 1/3
+2026-03-17 00:05:46,249 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 2/3)
+2026-03-17 00:05:51,250 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 2/3
+2026-03-17 00:05:51,752 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 3/3)
+2026-03-17 00:05:56,753 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 3/3
+2026-03-17 00:05:56,754 ERROR [backend.app.services.bambu_mqtt] [[SERIAL]] Failed to get K-profiles after 3 attempts
+2026-03-17 00:06:02,495 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:06:07,496 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 1/3
+2026-03-17 00:06:07,997 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 2/3)
+2026-03-17 00:06:12,998 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 2/3
+2026-03-17 00:06:13,500 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 3/3)
+2026-03-17 00:06:18,501 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 3/3
+2026-03-17 00:06:18,501 ERROR [backend.app.services.bambu_mqtt] [[SERIAL]] Failed to get K-profiles after 3 attempts
+2026-03-17 00:07:25,648 INFO [root] Logging to file: /app/logs/bambuddy.log
+2026-03-17 00:07:25,649 INFO [root] Bambuddy starting - debug=False, log_level=INFO
+2026-03-17 00:07:26,436 INFO [backend.app.services.mqtt_relay] MQTT relay disabled
+2026-03-17 00:07:27,327 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] MQTT disconnected: rc=Unspecified error, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-03-17 00:07:27,328 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Disconnected shortly after request topic subscription. Disabling request topic for this printer.
+2026-03-17 00:07:27,451 INFO [backend.app.services.background_dispatch] Background dispatch dispatcher started
+2026-03-17 00:07:27,451 INFO [backend.app.services.smart_plug_manager] Smart plug scheduler started
+2026-03-17 00:07:27,455 INFO [backend.app.services.print_scheduler] Print scheduler started
+2026-03-17 00:07:27,458 INFO [backend.app.services.notification_service] Notification digest scheduler started
+2026-03-17 00:07:27,458 INFO [backend.app.services.github_backup] Starting GitHub backup scheduler
+2026-03-17 00:07:27,458 INFO [backend.app.main] AMS history recording started
+2026-03-17 00:07:27,458 INFO [backend.app.main] Printer runtime tracking started
+2026-03-17 00:07:27,458 INFO [backend.app.main] SpoolBuddy watchdog started
+2026-03-17 00:07:27,458 INFO [backend.app.main] Camera stream cleanup started
+2026-03-17 00:07:27,483 INFO [root] Virtual printer manager synced from database
+2026-03-17 00:07:28,999 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-17 00:07:29,000 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-17 00:07:29,001 INFO [backend.app.api.routes.websocket] Sent initial status for 1 printers
+2026-03-17 00:07:29,232 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] PRINT START detected - file: BMCU 370C DM PRO CASE.stl.3mf, subtask: BMCU 370C DM PRO CASE.stl, is_new: True, is_file_change: False
+2026-03-17 00:07:29,234 INFO [backend.app.main] [Printer 1] Broadcasting AMS change via WebSocket
+2026-03-17 00:07:29,235 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Firmware version: 01.07.02.00
+2026-03-17 00:07:29,237 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] AMS unit 0: serial number not available in version info
+2026-03-17 00:07:29,237 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] AMS unit 0: firmware version not available in version info
+2026-03-17 00:07:29,309 INFO [backend.app.main] [CALLBACK] on_print_start called for printer 1, data keys: ['filename', 'subtask_name', 'remaining_time', 'raw_data', 'ams_mapping']
+2026-03-17 00:07:29,345 INFO [backend.app.services.usage_tracker] [UsageTracker] PRINT START printer 1: mapping=None, tray_now=1, last_loaded_tray=1
+2026-03-17 00:07:29,345 INFO [backend.app.services.usage_tracker] [UsageTracker] PRINT START printer 1: mapping-related keys: {'ams_extruder_map': {'0': 0}}
+2026-03-17 00:07:29,345 INFO [backend.app.services.usage_tracker] [UsageTracker] PRINT START printer 1 AMS 0: T0(type=PETG, color=FFFFFFFF, now=?, tar=?), T1(type=PETG, color=161616FF, now=?, tar=?), T2(type=PLA, color=68724DFF, now=?, tar=?), T3(type=PLA, color=D4B1DDFF, now=?, tar=?)
+2026-03-17 00:07:29,358 INFO [backend.app.main] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-03-17 00:07:29,358 INFO [backend.app.services.camera] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-03-17 00:07:29,359 INFO [backend.app.services.usage_tracker] [UsageTracker] Snapshotted 4 spool assignments for printer 1: {'0-0': 13, '0-1': 30, '0-2': 6, '0-3': 5}
+2026-03-17 00:07:29,359 INFO [backend.app.services.usage_tracker] [UsageTracker] Captured start remain% for printer 1 (4 trays): {'0-0': 0, '0-1': 0, '0-2': 0, '0-3': 0}
+2026-03-17 00:07:29,377 INFO [backend.app.main] [PLATE CHECK] printer_id=1, plate_detection_enabled=False
+2026-03-17 00:07:29,377 INFO [backend.app.main] [CALLBACK] Print start detected - filename: BMCU 370C DM PRO CASE.stl.3mf, subtask: BMCU 370C DM PRO CASE.stl
+2026-03-17 00:07:29,392 INFO [backend.app.main] Skipping duplicate - already have printing archive 34 for BMCU 370C DM PRO CASE.stl
+2026-03-17 00:07:29,415 INFO [backend.app.main] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-03-17 00:07:29,416 INFO [backend.app.services.camera] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-03-17 00:07:29,441 INFO [backend.app.api.routes.cloud] get_filament_info called with 4 IDs: ['P5d26355', 'P0bb7cf3', 'GFA01', 'GFG99']
+2026-03-17 00:07:29,453 INFO [backend.app.api.routes.printers] Trying to download cover for 'BMCU 370C DM PRO CASE.stl' from [IP] (trying 16 paths)
+2026-03-17 00:07:30,489 INFO [backend.app.services.firmware_check] Got Bambu Lab build ID: HWv0JsiNmBdIFJS8jobY-
+2026-03-17 00:07:30,540 INFO [backend.app.services.bambu_ftp] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-03-17 00:07:30,568 INFO [backend.app.services.bambu_ftp] FTP download failed for /BMCU 370C DM PRO CASE.stl.gcode.3mf: 550 
+2026-03-17 00:07:30,650 INFO [backend.app.services.bambu_ftp] FTP download failed for /cache/BMCU 370C DM PRO CASE.stl.gcode.3mf: 550 
+2026-03-17 00:07:30,680 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-17 00:07:30,680 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-17 00:07:30,681 INFO [backend.app.api.routes.websocket] Sent initial status for 1 printers
+2026-03-17 00:07:30,712 INFO [backend.app.services.bambu_ftp] FTP download failed for /model/BMCU 370C DM PRO CASE.stl.gcode.3mf: 550 
+2026-03-17 00:07:30,770 INFO [backend.app.services.bambu_ftp] FTP download failed for /data/BMCU 370C DM PRO CASE.stl.gcode.3mf: 550 
+2026-03-17 00:07:31,007 INFO [backend.app.services.bambu_ftp] FTP download failed for /BMCU 370C DM PRO CASE.stl.3mf: 550 
+2026-03-17 00:07:34,655 INFO [backend.app.main] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-03-17 00:07:34,656 INFO [backend.app.services.camera] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-03-17 00:07:35,935 INFO [backend.app.main] [SNAPSHOT] Fresh camera frame: 122565 bytes
+2026-03-17 00:07:36,864 INFO [backend.app.main] [SNAPSHOT] Fresh camera frame: 122565 bytes
+2026-03-17 00:07:36,864 INFO [backend.app.services.notification_service] on_print_start called for printer 1 ([PRINTER])
+2026-03-17 00:07:36,866 INFO [backend.app.services.notification_service] No notification providers configured for print_start event on printer 1
+2026-03-17 00:07:37,486 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-17 00:07:38,537 INFO [backend.app.main] [SNAPSHOT] Fresh camera frame: 119470 bytes
+2026-03-17 00:07:43,231 INFO [backend.app.services.camera] Found ffmpeg at: /usr/bin/ffmpeg
+2026-03-17 00:08:49,467 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:08:49,500 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=5, 0 profiles, expected=0.4
+2026-03-17 00:08:49,500 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:08:49,501 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:08:49,599 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:08:49,628 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=6, 0 profiles, expected=0.4
+2026-03-17 00:08:49,629 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:08:49,629 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:08:51,479 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:08:51,516 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=7, 0 profiles, expected=0.4
+2026-03-17 00:08:51,516 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:08:51,517 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:08:52,054 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:08:52,082 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=8, 0 profiles, expected=0.4
+2026-03-17 00:08:52,082 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:08:52,082 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:08:52,265 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:08:52,290 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=9, 0 profiles, expected=0.4
+2026-03-17 00:08:52,291 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:08:52,291 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:08:52,426 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:08:52,449 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=10, 0 profiles, expected=0.4
+2026-03-17 00:08:52,449 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:08:52,450 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:09:00,752 INFO [backend.app.services.bambu_ftp] Successfully downloaded /cache/BMCU 370C DM PRO CASE.stl.3mf to /app/data/archive/temp/cover_1_BMCU 370C DM PRO CASE.stl.gcode.3mf (10412896 bytes)
+2026-03-17 00:09:00,763 INFO [backend.app.api.routes.printers] Downloaded file size: 10412896 bytes
+2026-03-17 00:09:05,563 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:09:05,573 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=11, 0 profiles, expected=0.4
+2026-03-17 00:09:05,573 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:09:05,573 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:09:05,716 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:09:05,724 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=12, 0 profiles, expected=0.4
+2026-03-17 00:09:05,724 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:09:05,725 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:10:10,715 INFO [backend.app.api.routes.settings] Cleared 4 spool assignments on switch to Spoolman mode
+2026-03-17 00:10:19,946 INFO [backend.app.api.routes.settings] Cleared 0 spool assignments on switch to Spoolman mode
+2026-03-17 00:11:00,154 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:11:00,170 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=13, 0 profiles, expected=0.4
+2026-03-17 00:11:00,170 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:11:00,171 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:11:00,300 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:11:00,311 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=14, 0 profiles, expected=0.4
+2026-03-17 00:11:00,311 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:11:00,312 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:11:04,673 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:11:04,686 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=15, 0 profiles, expected=0.4
+2026-03-17 00:11:04,687 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-03-17 00:11:04,687 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-03-17 00:12:20,613 INFO [backend.app.api.routes.websocket] WebSocket client disconnected normally
+2026-03-17 00:12:20,806 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-17 00:12:20,806 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-17 00:12:20,807 INFO [backend.app.api.routes.websocket] Sent initial status for 1 printers
+2026-03-17 00:12:21,015 INFO [backend.app.api.routes.cloud] get_filament_info called with 4 IDs: ['P5d26355', 'P0bb7cf3', 'GFA01', 'GFG99']
+2026-03-17 00:12:37,036 WARNING [backend.app.api.routes.inventory] Spool assign: cloud lookup failed for 'PFUS649885ebb5eb0a': Failed to get setting detail: 400
+2026-03-17 00:12:37,036 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Publishing ams_filament_setting: AMS 0, tray 0, tray_info_idx=PFUS649885ebb5eb0a, setting_id=PFUS649885ebb5eb0a
+2026-03-17 00:12:37,036 INFO [backend.app.api.routes.inventory] Auto-configured AMS slot ams=0 tray=0 for spool 13 on printer 1
+2026-03-17 00:12:37,493 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-17 00:12:55,424 WARNING [backend.app.api.routes.inventory] Spool assign: cloud lookup failed for 'PFUSc8055f4f2a9637': Failed to get setting detail: 400
+2026-03-17 00:12:55,425 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Publishing ams_filament_setting: AMS 0, tray 1, tray_info_idx=PFUSc8055f4f2a9637, setting_id=PFUSc8055f4f2a9637
+2026-03-17 00:12:55,425 INFO [backend.app.api.routes.inventory] Auto-configured AMS slot ams=0 tray=1 for spool 30 on printer 1
+2026-03-17 00:13:02,399 INFO [backend.app.api.routes.inventory] Spool assign: using official filament_id='GFL01'
+2026-03-17 00:13:02,399 INFO [backend.app.api.routes.inventory] Spool assign: corrected filament_id 'GFL01'→'GFA01' (name='Bambu PLA Matte')
+2026-03-17 00:13:02,399 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Publishing ams_filament_setting: AMS 0, tray 2, tray_info_idx=GFA01, setting_id=GFSA01
+2026-03-17 00:13:02,399 INFO [backend.app.api.routes.inventory] Auto-configured AMS slot ams=0 tray=2 for spool 6 on printer 1
+2026-03-17 00:13:18,052 INFO [backend.app.api.routes.inventory] Spool assign: derived filament_id='GFA01' from base_id='GFSA01_04'
+2026-03-17 00:13:18,052 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Publishing ams_filament_setting: AMS 0, tray 3, tray_info_idx=GFA01, setting_id=PFUS43c4334e6e97f1
+2026-03-17 00:13:18,052 INFO [backend.app.api.routes.inventory] Auto-configured AMS slot ams=0 tray=3 for spool 5 on printer 1
+2026-03-17 00:13:33,185 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:13:38,186 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 1/3
+2026-03-17 00:13:38,687 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 2/3)
+2026-03-17 00:13:43,688 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 2/3
+2026-03-17 00:13:44,189 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 3/3)
+2026-03-17 00:13:49,191 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 3/3
+2026-03-17 00:13:49,192 ERROR [backend.app.services.bambu_mqtt] [[SERIAL]] Failed to get K-profiles after 3 attempts
+2026-03-17 00:14:45,466 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-03-17 00:14:50,468 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 1/3
+2026-03-17 00:14:50,969 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 2/3)
+2026-03-17 00:14:55,969 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 2/3
+2026-03-17 00:14:56,471 INFO [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 3/3)
+2026-03-17 00:15:01,472 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] Timeout on K-profiles request attempt 3/3
+2026-03-17 00:15:01,472 ERROR [backend.app.services.bambu_mqtt] [[SERIAL]] Failed to get K-profiles after 3 attempts
+2026-03-17 00:17:37,500 INFO [backend.app.main] Recorded 1 AMS sensor history entries
+2026-03-17 00:17:42,971 INFO [backend.app.api.routes.support] Log level changed to DEBUG
+2026-03-17 00:17:42,971 INFO [backend.app.api.routes.bug_report] Bug report: temporarily enabled debug logging
+2026-03-17 00:17:42,971 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Requesting status update (pushall)
+2026-03-17 00:17:44,040 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:17:44,040 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -29dBm
+2026-03-17 00:17:46,077 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:17:46,077 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -32dBm
+2026-03-17 00:17:48,107 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:17:48,107 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -29dBm
+2026-03-17 00:17:52,155 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:17:54,182 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:17:56,213 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:17:56,214 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -31dBm
+2026-03-17 00:17:58,262 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:17:58,262 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -27dBm
+2026-03-17 00:18:04,321 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:18:06,344 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:18:08,406 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:18:08,406 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -26dBm
+2026-03-17 00:18:10,447 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:18:10,447 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -27dBm
+2026-03-17 00:18:12,467 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 00:18:12,562 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: added 30s, total=201532s (55.98h)
+2026-03-17 00:18:12,563 DEBUG [backend.app.main] Updated runtime for 1 printer(s)
