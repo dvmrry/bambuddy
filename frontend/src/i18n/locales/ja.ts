@@ -1762,6 +1762,7 @@ export default {
     cameraTypeRtsp: 'RTSPストリーム',
     cameraTypeSnapshot: 'HTTPスナップショット',
     cameraTypeUsb: 'USBカメラ (V4L2)',
+    cameraRotation: '回転',
     test: 'テスト',
     connected: '接続済み',
     disconnected: '未接続',

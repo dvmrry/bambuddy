@@ -1481,12 +1481,16 @@ async def run_migrations(conn):
     # Legacy migration: Add notify_print_stopped column (for any existing partial tables)
     try:
         await conn.execute(
-            text(
-                "ALTER TABLE user_email_preferences ADD COLUMN notify_print_stopped BOOLEAN NOT NULL DEFAULT 1"
-            )
+            text("ALTER TABLE user_email_preferences ADD COLUMN notify_print_stopped BOOLEAN NOT NULL DEFAULT 1")
         )
     except OperationalError:
         pass  # Column already exists or table created with full schema
+
+    # Migration: Add camera_rotation column to printers
+    try:
+        await conn.execute(text("ALTER TABLE printers ADD COLUMN camera_rotation INTEGER DEFAULT 0"))
+    except OperationalError:
+        pass  # Already applied
 
     # Seed default settings keys that must exist on fresh install
     default_settings = [

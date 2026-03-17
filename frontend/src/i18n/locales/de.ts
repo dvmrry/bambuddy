@@ -1763,6 +1763,7 @@ export default {
     cameraTypeRtsp: 'RTSP-Stream',
     cameraTypeSnapshot: 'HTTP-Snapshot',
     cameraTypeUsb: 'USB-Kamera (V4L2)',
+    cameraRotation: 'Drehung',
     test: 'Testen',
     connected: 'Verbunden',
     disconnected: 'Getrennt',

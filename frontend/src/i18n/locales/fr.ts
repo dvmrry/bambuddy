@@ -1760,6 +1760,7 @@ export default {
     cameraTypeRtsp: 'Flux RTSP',
     cameraTypeSnapshot: 'Snapshot HTTP',
     cameraTypeUsb: 'Caméra USB (V4L2)',
+    cameraRotation: 'Rotation',
     test: 'Tester',
     connected: 'Connecté',
     disconnected: 'Déconnecté',

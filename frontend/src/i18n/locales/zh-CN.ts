@@ -1759,6 +1759,7 @@ export default {
     cameraTypeRtsp: 'RTSP 流',
     cameraTypeSnapshot: 'HTTP 快照',
     cameraTypeUsb: 'USB 摄像头 (V4L2)',
+    cameraRotation: '旋转',
     test: '测试',
     connected: '已连接',
     disconnected: '未连接',

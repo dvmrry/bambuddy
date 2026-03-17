@@ -5,6 +5,7 @@ All notable changes to Bambuddy will be documented in this file.
 ## [0.2.3b1] - Unreleased
 
 ### New Features
+- **Camera Image Rotation** ([#672](https://github.com/maziggy/bambuddy/issues/672)) — Added per-printer camera rotation (0°, 90°, 180°, 270°) for cameras mounted in portrait or upside-down orientations. Configurable in Settings → Camera for each printer. Rotation applies to live stream, embedded viewer, stream overlay, and notification snapshots. Requested by @wrenoud.
 - **Per-User Email Notifications** ([#693](https://github.com/maziggy/bambuddy/pull/693)) — When Advanced Authentication is enabled, individual users can now receive email notifications for their own print jobs. A new "Notifications" page lets each user toggle notifications for print start, complete, failed, and stopped events. Only prints submitted by that user trigger their email — other users' prints are not affected. Requires SMTP to be configured and the "User Notifications" toggle enabled in Settings → Notifications. Administrators and Operators have access by default; Viewers do not. Contributed by @cadtoolbox.
 
 ### Fixed

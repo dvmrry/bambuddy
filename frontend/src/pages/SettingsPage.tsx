@@ -673,7 +673,7 @@ export function SettingsPage() {
   });
 
   const updatePrinterMutation = useMutation({
-    mutationFn: ({ id, data }: { id: number; data: Partial<{ external_camera_url: string | null; external_camera_type: string | null; external_camera_enabled: boolean }> }) =>
+    mutationFn: ({ id, data }: { id: number; data: Partial<{ external_camera_url: string | null; external_camera_type: string | null; external_camera_enabled: boolean; camera_rotation: number }> }) =>
       api.updatePrinter(id, data),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['printers'] });
@@ -892,10 +892,11 @@ export function SettingsPage() {
     }, 800);
   };
 
-  const handleUpdatePrinterCamera = (printerId: number, updates: { type?: string; enabled?: boolean }) => {
-    const data: Partial<{ external_camera_type: string | null; external_camera_enabled: boolean }> = {};
+  const handleUpdatePrinterCamera = (printerId: number, updates: { type?: string; enabled?: boolean; rotation?: number }) => {
+    const data: Partial<{ external_camera_type: string | null; external_camera_enabled: boolean; camera_rotation: number }> = {};
     if (updates.type !== undefined) data.external_camera_type = updates.type || null;
     if (updates.enabled !== undefined) data.external_camera_enabled = updates.enabled;
+    if (updates.rotation !== undefined) data.camera_rotation = updates.rotation;
     updatePrinterMutation.mutate({ id: printerId, data });
   };
 
@@ -1479,6 +1480,19 @@ export function SettingsPage() {
                                 )}
                               </div>
                             )}
+                            <div className="flex items-center gap-2">
+                              <label className="text-xs text-bambu-gray">{t('settings.cameraRotation')}</label>
+                              <select
+                                value={printer.camera_rotation || 0}
+                                onChange={(e) => handleUpdatePrinterCamera(printer.id, { rotation: parseInt(e.target.value) })}
+                                className="px-2 py-1 bg-bambu-dark-secondary border border-bambu-dark-tertiary rounded text-white text-xs focus:border-bambu-green focus:outline-none"
+                              >
+                                <option value={0}>0°</option>
+                                <option value={90}>90°</option>
+                                <option value={180}>180°</option>
+                                <option value={270}>270°</option>
+                              </select>
+                            </div>
                           </div>
                         )}
                       </div>
