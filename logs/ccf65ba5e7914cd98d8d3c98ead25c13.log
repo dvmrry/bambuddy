@@ -1,0 +1,200 @@
+2026-03-17 17:46:36,203 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 17:46:36,203 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -40dBm
+2026-03-17 17:46:38,487 DEBUG [backend.app.services.virtual_printer.ssdp_server] Received SSDP from printer [IP]: Bambi
+2026-03-17 17:46:38,488 DEBUG [backend.app.services.virtual_printer.ssdp_server] Rewrote SSDP for proxy:
+NOTIFY * HTTP/1.1
+HOST: [IP]:1900
+Server: UPnP/1.0
+Location: [IP]
+NT: urn:bambulab-com:device:3dprinter:1
+USN: [SERIAL]
+Cache-Control: max-age=1800
+DevModel.bambu.com: C12
+DevName.bambu.com: Bambi
+ - Proxy
+DevSignal.bambu.com: -44
+DevConnect.bambu.com: lan
+DevBind.bambu.com: free
+Devseclink.bambu.com: secure
+DevVersion.bambu.com: 01.09.01.00
+DevCap.bambu.com: 1
+
+
+2026-03-17 17:46:38,488 DEBUG [backend.app.services.virtual_printer.ssdp_server] Broadcast SSDP for 'Bambi' on LAN B ([IP])
+2026-03-17 17:46:38,588 DEBUG [backend.app.services.virtual_printer.ssdp_server] Received SSDP from printer [IP]: Bambi
+2026-03-17 17:46:38,588 DEBUG [backend.app.services.virtual_printer.ssdp_server] Rewrote SSDP for proxy:
+NOTIFY * HTTP/1.1
+HOST: [IP]:1900
+Server: UPnP/1.0
+Location: [IP]
+NT: urn:bambulab-com:device:3dprinter:1
+USN: [SERIAL]
+Cache-Control: max-age=1800
+DevModel.bambu.com: C12
+DevName.bambu.com: Bambi
+ - Proxy
+DevSignal.bambu.com: -44
+DevConnect.bambu.com: lan
+DevBind.bambu.com: free
+Devseclink.bambu.com: secure
+DevVersion.bambu.com: 01.09.01.00
+DevCap.bambu.com: 1
+
+
+2026-03-17 17:46:38,589 DEBUG [backend.app.services.virtual_printer.ssdp_server] Broadcast SSDP for 'Bambi' on LAN B ([IP])
+2026-03-17 17:46:38,689 DEBUG [backend.app.services.virtual_printer.ssdp_server] Received SSDP from printer [IP]: Bambi
+2026-03-17 17:46:38,689 DEBUG [backend.app.services.virtual_printer.ssdp_server] Rewrote SSDP for proxy:
+NOTIFY * HTTP/1.1
+HOST: [IP]:1900
+Server: UPnP/1.0
+Location: [IP]
+NT: urn:bambulab-com:device:3dprinter:1
+USN: [SERIAL]
+Cache-Control: max-age=1800
+DevModel.bambu.com: C12
+DevName.bambu.com: Bambi
+ - Proxy
+DevSignal.bambu.com: -44
+DevConnect.bambu.com: lan
+DevBind.bambu.com: free
+Devseclink.bambu.com: secure
+DevVersion.bambu.com: 01.09.01.00
+DevCap.bambu.com: 1
+
+
+2026-03-17 17:46:38,689 DEBUG [backend.app.services.virtual_printer.ssdp_server] Broadcast SSDP for 'Bambi' on LAN B ([IP])
+2026-03-17 17:46:38,790 DEBUG [backend.app.services.virtual_printer.ssdp_server] Received SSDP from printer [IP]: Bambi
+2026-03-17 17:46:38,790 DEBUG [backend.app.services.virtual_printer.ssdp_server] Rewrote SSDP for proxy:
+NOTIFY * HTTP/1.1
+HOST: [IP]:1900
+Server: UPnP/1.0
+Location: [IP]
+NT: urn:bambulab-com:device:3dprinter:1
+USN: [SERIAL]
+Cache-Control: max-age=1800
+DevModel.bambu.com: C12
+DevName.bambu.com: Bambi
+ - Proxy
+DevSignal.bambu.com: -44
+DevConnect.bambu.com: lan
+DevBind.bambu.com: free
+Devseclink.bambu.com: secure
+DevVersion.bambu.com: 01.09.01.00
+DevCap.bambu.com: 1
+
+
+2026-03-17 17:46:38,790 DEBUG [backend.app.services.virtual_printer.ssdp_server] Broadcast SSDP for 'Bambi' on LAN B ([IP])
+2026-03-17 17:46:39,794 DEBUG [backend.app.services.virtual_printer.ssdp_server] Rewrote SSDP for proxy:
+NOTIFY * HTTP/1.1
+HOST: [IP]:1900
+Server: UPnP/1.0
+Location: [IP]
+NT: urn:bambulab-com:device:3dprinter:1
+USN: [SERIAL]
+Cache-Control: max-age=1800
+DevModel.bambu.com: C12
+DevName.bambu.com: Bambi
+ - Proxy
+DevSignal.bambu.com: -44
+DevConnect.bambu.com: lan
+DevBind.bambu.com: free
+Devseclink.bambu.com: secure
+DevVersion.bambu.com: 01.09.01.00
+DevCap.bambu.com: 1
+
+
+2026-03-17 17:46:39,794 DEBUG [backend.app.services.virtual_printer.ssdp_server] Broadcast SSDP for 'Bambi' on LAN B ([IP])
+2026-03-17 17:46:42,301 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 17:46:42,302 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -41dBm
+2026-03-17 17:46:44,118 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: added 30s, total=713220s (198.12h)
+2026-03-17 17:46:44,120 DEBUG [backend.app.main] Updated runtime for 1 printer(s)
+2026-03-17 17:46:44,340 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 17:46:44,340 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -39dBm
+2026-03-17 17:46:48,387 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 17:46:48,387 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -41dBm
+2026-03-17 17:46:48,627 DEBUG [backend.app.services.virtual_printer.ssdp_server] Received SSDP from printer [IP]: Bambi
+2026-03-17 17:46:48,628 DEBUG [backend.app.services.virtual_printer.ssdp_server] Rewrote SSDP for proxy:
+NOTIFY * HTTP/1.1
+HOST: [IP]:1900
+Server: UPnP/1.0
+Location: [IP]
+NT: urn:bambulab-com:device:3dprinter:1
+USN: [SERIAL]
+Cache-Control: max-age=1800
+DevModel.bambu.com: C12
+DevName.bambu.com: Bambi
+ - Proxy
+DevSignal.bambu.com: -42
+DevConnect.bambu.com: lan
+DevBind.bambu.com: free
+Devseclink.bambu.com: secure
+DevVersion.bambu.com: 01.09.01.00
+DevCap.bambu.com: 1
+
+
+2026-03-17 17:46:48,628 DEBUG [backend.app.services.virtual_printer.ssdp_server] Broadcast SSDP for 'Bambi' on LAN B ([IP])
+2026-03-17 17:46:48,728 DEBUG [backend.app.services.virtual_printer.ssdp_server] Received SSDP from printer [IP]: Bambi
+2026-03-17 17:46:48,728 DEBUG [backend.app.services.virtual_printer.ssdp_server] Rewrote SSDP for proxy:
+NOTIFY * HTTP/1.1
+HOST: [IP]:1900
+Server: UPnP/1.0
+Location: [IP]
+NT: urn:bambulab-com:device:3dprinter:1
+USN: [SERIAL]
+Cache-Control: max-age=1800
+DevModel.bambu.com: C12
+DevName.bambu.com: Bambi
+ - Proxy
+DevSignal.bambu.com: -42
+DevConnect.bambu.com: lan
+DevBind.bambu.com: free
+Devseclink.bambu.com: secure
+DevVersion.bambu.com: 01.09.01.00
+DevCap.bambu.com: 1
+
+
+2026-03-17 17:46:48,728 DEBUG [backend.app.services.virtual_printer.ssdp_server] Broadcast SSDP for 'Bambi' on LAN B ([IP])
+2026-03-17 17:46:48,829 DEBUG [backend.app.services.virtual_printer.ssdp_server] Received SSDP from printer [IP]: Bambi
+2026-03-17 17:46:48,829 DEBUG [backend.app.services.virtual_printer.ssdp_server] Rewrote SSDP for proxy:
+NOTIFY * HTTP/1.1
+HOST: [IP]:1900
+Server: UPnP/1.0
+Location: [IP]
+NT: urn:bambulab-com:device:3dprinter:1
+USN: [SERIAL]
+Cache-Control: max-age=1800
+DevModel.bambu.com: C12
+DevName.bambu.com: Bambi
+ - Proxy
+DevSignal.bambu.com: -42
+DevConnect.bambu.com: lan
+DevBind.bambu.com: free
+Devseclink.bambu.com: secure
+DevVersion.bambu.com: 01.09.01.00
+DevCap.bambu.com: 1
+
+
+2026-03-17 17:46:48,829 DEBUG [backend.app.services.virtual_printer.ssdp_server] Broadcast SSDP for 'Bambi' on LAN B ([IP])
+2026-03-17 17:46:48,930 DEBUG [backend.app.services.virtual_printer.ssdp_server] Received SSDP from printer [IP]: Bambi
+2026-03-17 17:46:48,930 DEBUG [backend.app.services.virtual_printer.ssdp_server] Rewrote SSDP for proxy:
+NOTIFY * HTTP/1.1
+HOST: [IP]:1900
+Server: UPnP/1.0
+Location: [IP]
+NT: urn:bambulab-com:device:3dprinter:1
+USN: [SERIAL]
+Cache-Control: max-age=1800
+DevModel.bambu.com: C12
+DevName.bambu.com: Bambi
+ - Proxy
+DevSignal.bambu.com: -42
+DevConnect.bambu.com: lan
+DevBind.bambu.com: free
+Devseclink.bambu.com: secure
+DevVersion.bambu.com: 01.09.01.00
+DevCap.bambu.com: 1
+
+
+2026-03-17 17:46:48,930 DEBUG [backend.app.services.virtual_printer.ssdp_server] Broadcast SSDP for 'Bambi' on LAN B ([IP])
+2026-03-17 17:46:50,418 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] Received command response: push_status
+2026-03-17 17:46:50,418 DEBUG [backend.app.services.bambu_mqtt] [[SERIAL]] wifi_signal received: -42dBm
