@@ -385,6 +385,7 @@ class VirtualPrinterInstance:
             key_path=key_path,
             on_file_received=self.on_file_received,
             bind_address=bind_addr,
+            vp_name=self.name,
         )
         self._tasks.append(
             asyncio.create_task(
@@ -402,6 +403,7 @@ class VirtualPrinterInstance:
             on_print_command=self.on_print_command,
             model=self.model or DEFAULT_VIRTUAL_PRINTER_MODEL,
             bind_address=bind_addr,
+            vp_name=self.name,
         )
         self._tasks.append(
             asyncio.create_task(
