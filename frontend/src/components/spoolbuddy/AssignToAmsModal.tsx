@@ -100,25 +100,9 @@ export function AssignToAmsModal({ isOpen, onClose, spool, printerId }: AssignTo
         tray_id: trayId,
       });
 
-      // Save slot preset mapping so ConfigureAmsSlotModal can show the preset
-      // (same as ConfigureAmsSlotModal does after configuring a slot)
-      if (spool.slicer_filament) {
-        const base = spool.slicer_filament.includes('_')
-          ? spool.slicer_filament.split('_')[0]
-          : spool.slicer_filament;
-        // Convert filament_id (GFL05) → setting_id (GFSL05); user presets (P*) pass through
-        const presetId = base.startsWith('GF') && !base.startsWith('GFS')
-          ? 'GFS' + base.slice(2)
-          : base;
-        const presetName = spool.subtype
-          ? `${spool.material} ${spool.subtype}`
-          : spool.material;
-        try {
-          await api.saveSlotPreset(printerId, amsId, trayId, presetId, presetName, 'cloud');
-        } catch (e) {
-          console.warn('Failed to save slot preset mapping:', e);
-        }
-      }
+      // Slot preset mapping is now saved by the backend in assign_spool()
+      // after successful MQTT configuration, using the authoritative
+      // slicer_filament_name from the spool record.
     },
     onSuccess: () => {
       setStatusType('success');
