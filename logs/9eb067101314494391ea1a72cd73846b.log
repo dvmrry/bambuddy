@@ -1,0 +1,200 @@
+2026-03-20 15:04:26,951 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:04:26,951 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:04:31,019 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:04:31,019 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:04:41,665 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:04:41,665 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:04:56,953 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:04:56,953 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:05:01,062 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:05:01,062 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:05:11,667 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:05:11,667 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:05:26,958 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:05:26,958 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:05:31,090 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:05:31,090 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:05:41,668 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:05:41,668 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:05:56,961 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:05:56,961 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:06:01,112 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:06:01,112 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:06:11,668 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:06:11,669 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:06:26,963 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:06:26,963 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:06:31,114 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:06:31,114 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:06:41,670 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:06:41,670 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:06:56,966 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:06:56,966 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:07:01,127 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:07:01,127 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:07:11,671 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:07:11,671 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:07:26,969 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:07:26,969 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:07:31,143 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:07:31,143 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:07:41,672 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:07:41,672 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:07:56,972 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:07:56,972 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:08:01,168 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:08:01,178 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:08:11,673 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:08:11,674 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:08:26,973 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:08:26,973 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:08:31,189 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:08:31,190 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:08:41,675 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:08:41,675 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:08:56,976 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:08:56,976 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:09:01,275 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:09:01,275 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:09:11,677 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:09:11,677 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:09:26,978 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:09:26,978 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:09:31,299 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:09:31,299 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:09:41,678 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:09:41,678 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:09:56,981 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:09:56,981 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:10:01,316 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:10:01,316 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:10:11,679 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:10:11,679 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:10:26,983 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:10:26,984 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:10:31,341 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:10:31,341 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:10:41,680 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:10:41,680 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:10:56,987 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:10:56,987 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:11:01,347 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:11:01,347 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:11:11,681 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:11:11,681 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:11:26,989 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:11:26,989 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:11:31,353 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:11:31,353 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:11:41,682 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:11:41,682 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:11:56,992 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:11:56,992 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:12:01,395 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:12:01,396 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:12:11,683 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:12:11,683 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:12:21,242 DEBUG [httpcore.connection] connect_tcp.started host='api.github.com' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-20 15:12:21,276 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef101ee8f0>
+2026-03-20 15:12:21,276 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x70ef10741be0> server_hostname='api.github.com' timeout=10.0
+2026-03-20 15:12:21,309 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef101ecf50>
+2026-03-20 15:12:21,309 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-20 15:12:21,309 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-20 15:12:21,310 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-20 15:12:21,310 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-20 15:12:21,310 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-20 15:12:21,310 DEBUG [backend.app.api.routes.printers] API returning ams_mapping: [], ams_extruder_map: {}
+2026-03-20 15:12:21,311 DEBUG [backend.app.api.routes.printers] Using tray_now directly as global ID: 255
+2026-03-20 15:12:21,621 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 20 Mar 2026 14:12:21 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Cache-Control', b'public, max-age=60, s-maxage=60'), (b'Vary', b'Accept,Accept-Encoding, Accept, X-Requested-With'), (b'ETag', b'W/"60f9ef03a879a2d94eea486e519f0ccdf3182eaeed6b3bfe0527e3508e7ee4a9"'), (b'X-GitHub-Media-Type', b'github.v3; format=json'), (b'Link', b'<https://api.github.com/repositories/1105867170/releases?per_page=20&page=2>; rel="next", <https://api.github.com/repositories/1105867170/releases?per_page=20&page=3>; rel="last"'), (b'x-github-api-version-selected', b'2022-11-28'), (b'Access-Control-Expose-Headers', b'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset'), (b'Access-Control-Allow-Origin', b'*'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubdomains; preload'), (b'X-Frame-Options', b'deny'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'0'), (b'Referrer-Policy', b'origin-when-cross-origin, strict-origin-when-cross-origin'), (b'Content-Security-Policy', b"default-src 'none'"), (b'Content-Encoding', b'gzip'), (b'Server', b'github.com'), (b'Accept-Ranges', b'bytes'), (b'X-RateLimit-Limit', b'60'), (b'X-RateLimit-Remaining', b'59'), (b'X-RateLimit-Used', b'1'), (b'X-RateLimit-Resource', b'core'), (b'X-RateLimit-Reset', b'1774019541'), (b'Transfer-Encoding', b'chunked'), (b'X-GitHub-Request-Id', b'FCB0:3F027:E53C82:C5CC64:69BD55C5')])
+2026-03-20 15:12:21,621 INFO [httpx] HTTP Request: GET https://api.github.com/repos/maziggy/bambuddy/releases?per_page=20 "HTTP/1.1 200 OK"
+2026-03-20 15:12:21,621 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-20 15:12:21,680 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-20 15:12:21,680 DEBUG [httpcore.http11] response_closed.started
+2026-03-20 15:12:21,680 DEBUG [httpcore.http11] response_closed.complete
+2026-03-20 15:12:21,681 DEBUG [httpcore.connection] close.started
+2026-03-20 15:12:21,681 DEBUG [httpcore.connection] close.complete
+2026-03-20 15:12:21,729 INFO [backend.app.api.routes.websocket] WebSocket client disconnected normally
+2026-03-20 15:12:21,933 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-20 15:12:21,934 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-20 15:12:21,934 INFO [backend.app.api.routes.websocket] Sent initial status for 2 printers
+2026-03-20 15:12:21,953 DEBUG [httpcore.connection] connect_tcp.started host='api.github.com' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-20 15:12:21,986 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef10375c70>
+2026-03-20 15:12:21,986 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x70ef102edb50> server_hostname='api.github.com' timeout=10.0
+2026-03-20 15:12:22,020 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef101ee580>
+2026-03-20 15:12:22,020 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-20 15:12:22,021 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-20 15:12:22,021 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-20 15:12:22,021 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-20 15:12:22,021 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-20 15:12:22,053 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 20 Mar 2026 14:12:21 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Cache-Control', b'public, max-age=60, s-maxage=60'), (b'Vary', b'Accept,Accept-Encoding, Accept, X-Requested-With'), (b'ETag', b'W/"60f9ef03a879a2d94eea486e519f0ccdf3182eaeed6b3bfe0527e3508e7ee4a9"'), (b'X-GitHub-Media-Type', b'github.v3; format=json'), (b'Link', b'<https://api.github.com/repositories/1105867170/releases?per_page=20&page=2>; rel="next", <https://api.github.com/repositories/1105867170/releases?per_page=20&page=3>; rel="last"'), (b'x-github-api-version-selected', b'2022-11-28'), (b'Access-Control-Expose-Headers', b'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset'), (b'Access-Control-Allow-Origin', b'*'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubdomains; preload'), (b'X-Frame-Options', b'deny'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'0'), (b'Referrer-Policy', b'origin-when-cross-origin, strict-origin-when-cross-origin'), (b'Content-Security-Policy', b"default-src 'none'"), (b'Content-Encoding', b'gzip'), (b'Server', b'github.com'), (b'Accept-Ranges', b'bytes'), (b'X-RateLimit-Limit', b'60'), (b'X-RateLimit-Remaining', b'58'), (b'X-RateLimit-Used', b'2'), (b'X-RateLimit-Resource', b'core'), (b'X-RateLimit-Reset', b'1774019541'), (b'Content-Length', b'61502'), (b'X-GitHub-Request-Id', b'FCB2:12AA50:EC022D:CD5B9C:69BD55C6')])
+2026-03-20 15:12:22,053 INFO [httpx] HTTP Request: GET https://api.github.com/repos/maziggy/bambuddy/releases?per_page=20 "HTTP/1.1 200 OK"
+2026-03-20 15:12:22,053 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-20 15:12:22,113 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-20 15:12:22,113 DEBUG [httpcore.http11] response_closed.started
+2026-03-20 15:12:22,113 DEBUG [httpcore.http11] response_closed.complete
+2026-03-20 15:12:22,114 DEBUG [httpcore.connection] close.started
+2026-03-20 15:12:22,114 DEBUG [httpcore.connection] close.complete
+2026-03-20 15:12:22,325 INFO [backend.app.api.routes.websocket] WebSocket client disconnected normally
+2026-03-20 15:12:22,516 INFO [backend.app.api.routes.websocket] WebSocket client connecting...
+2026-03-20 15:12:22,516 INFO [backend.app.api.routes.websocket] WebSocket client connected
+2026-03-20 15:12:22,516 INFO [backend.app.api.routes.websocket] Sent initial status for 2 printers
+2026-03-20 15:12:22,538 DEBUG [httpcore.connection] connect_tcp.started host='api.github.com' port=443 local_address=None timeout=10.0 socket_options=None
+2026-03-20 15:12:22,567 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef101b6d00>
+2026-03-20 15:12:22,567 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x70ef10740200> server_hostname='api.github.com' timeout=10.0
+2026-03-20 15:12:22,597 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef12b5c280>
+2026-03-20 15:12:22,597 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-20 15:12:22,597 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-20 15:12:22,597 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-20 15:12:22,597 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-20 15:12:22,597 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-20 15:12:22,630 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 20 Mar 2026 14:12:21 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Cache-Control', b'public, max-age=60, s-maxage=60'), (b'Vary', b'Accept,Accept-Encoding, Accept, X-Requested-With'), (b'ETag', b'W/"60f9ef03a879a2d94eea486e519f0ccdf3182eaeed6b3bfe0527e3508e7ee4a9"'), (b'X-GitHub-Media-Type', b'github.v3; format=json'), (b'Link', b'<https://api.github.com/repositories/1105867170/releases?per_page=20&page=2>; rel="next", <https://api.github.com/repositories/1105867170/releases?per_page=20&page=3>; rel="last"'), (b'x-github-api-version-selected', b'2022-11-28'), (b'Access-Control-Expose-Headers', b'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset'), (b'Access-Control-Allow-Origin', b'*'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubdomains; preload'), (b'X-Frame-Options', b'deny'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'0'), (b'Referrer-Policy', b'origin-when-cross-origin, strict-origin-when-cross-origin'), (b'Content-Security-Policy', b"default-src 'none'"), (b'Content-Encoding', b'gzip'), (b'Server', b'github.com'), (b'Accept-Ranges', b'bytes'), (b'X-RateLimit-Limit', b'60'), (b'X-RateLimit-Remaining', b'57'), (b'X-RateLimit-Used', b'3'), (b'X-RateLimit-Resource', b'core'), (b'X-RateLimit-Reset', b'1774019541'), (b'Content-Length', b'61502'), (b'X-GitHub-Request-Id', b'F14B:A63CF:DA73F6:BB87C2:69BD55C6')])
+2026-03-20 15:12:22,630 INFO [httpx] HTTP Request: GET https://api.github.com/repos/maziggy/bambuddy/releases?per_page=20 "HTTP/1.1 200 OK"
+2026-03-20 15:12:22,630 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-20 15:12:22,681 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-20 15:12:22,681 DEBUG [httpcore.http11] response_closed.started
+2026-03-20 15:12:22,681 DEBUG [httpcore.http11] response_closed.complete
+2026-03-20 15:12:22,682 DEBUG [httpcore.connection] close.started
+2026-03-20 15:12:22,682 DEBUG [httpcore.connection] close.complete
+2026-03-20 15:12:26,994 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:12:26,994 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:12:31,029 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] request_status_update: not connected
+2026-03-20 15:12:31,029 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] request_status_update: not connected
+2026-03-20 15:12:31,441 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:12:31,442 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:12:36,929 DEBUG [httpcore.connection] connect_tcp.started host='bambuddy.cool' port=443 local_address=None timeout=60.0 socket_options=None
+2026-03-20 15:12:37,015 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef142e4320>
+2026-03-20 15:12:37,015 DEBUG [httpcore.connection] start_tls.started ssl_context=<ssl.SSLContext object at 0x70ef103deba0> server_hostname='bambuddy.cool' timeout=60.0
+2026-03-20 15:12:37,074 DEBUG [httpcore.connection] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef14356c10>
+2026-03-20 15:12:37,074 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'POST']>
+2026-03-20 15:12:37,074 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-20 15:12:37,074 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'POST']>
+2026-03-20 15:12:37,074 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-20 15:12:37,074 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'POST']>
+2026-03-20 15:12:39,039 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx'), (b'Date', b'Fri, 20 Mar 2026 14:12:39 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'144'), (b'Connection', b'keep-alive'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Headers', b'Content-Type'), (b'Access-Control-Allow-Methods', b'POST, OPTIONS'), (b'X-Frame-Options', b'DENY'), (b'Content-Security-Policy', b"frame-ancestors 'none'")])
+2026-03-20 15:12:39,039 INFO [httpx] HTTP Request: POST https://bambuddy.cool/api/bug-report "HTTP/1.1 200 OK"
+2026-03-20 15:12:39,039 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'POST']>
+2026-03-20 15:12:39,040 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-20 15:12:39,040 DEBUG [httpcore.http11] response_closed.started
+2026-03-20 15:12:39,040 DEBUG [httpcore.http11] response_closed.complete
+2026-03-20 15:12:39,040 DEBUG [httpcore.connection] close.started
+2026-03-20 15:12:39,040 DEBUG [httpcore.connection] close.complete
+2026-03-20 15:12:41,684 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:12:41,685 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:12:56,997 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:12:56,997 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:13:01,478 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:13:01,479 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:13:11,686 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:13:11,686 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:13:26,999 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:13:26,999 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:13:31,489 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:13:31,489 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-03-20 15:13:41,688 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:13:41,688 DEBUG [backend.app.main] [[PRINTER]] Runtime tracking: not connected
+2026-03-20 15:13:57,001 INFO [backend.app.services.print_scheduler] Queue check: found 2 pending items: [(47, 1, 81, None), (48, 1, 70, None)]
+2026-03-20 15:13:57,001 INFO [backend.app.services.print_scheduler] Queue skip summary: {'manual_start': 2}
+2026-03-20 15:14:01,262 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] request_status_update: not connected
+2026-03-20 15:14:01,262 WARNING [backend.app.services.bambu_mqtt] [[SERIAL]] request_status_update: not connected
+2026-03-20 15:14:01,546 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=09400A391800003, bind=[IP])
+2026-03-20 15:14:01,547 DEBUG [backend.app.services.virtual_printer.ssdp_server] Sent SSDP NOTIFY for [PRINTER] Proxy (Location=[IP], USN=[SERIAL], bind=[IP])
