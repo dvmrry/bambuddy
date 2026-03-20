@@ -1,0 +1,200 @@
+2026-03-20 14:10:18,720 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,720 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,720 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,720 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,720 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,720 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,721 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,721 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,721 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,721 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,721 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,721 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,721 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,721 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,722 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,722 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,722 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,722 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,722 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,722 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,722 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,722 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,723 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,723 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,723 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,723 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,723 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,723 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,723 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,723 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,724 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,724 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,724 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,724 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,724 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:18,726 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectError(OSError('All connection attempts failed'))
+2026-03-20 14:10:18,726 DEBUG [backend.app.services.discovery] Error probing [IP]: All connection attempts failed
+2026-03-20 14:10:19,718 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,718 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,718 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,718 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,718 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,719 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,719 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,719 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,719 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,719 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,719 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,719 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,719 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,720 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,720 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,720 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,720 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,720 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,720 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,721 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,721 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,721 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,721 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,721 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,721 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,721 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,721 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,721 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,722 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,722 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,722 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,722 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,722 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,722 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,722 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,722 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,722 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,722 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,723 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,723 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,724 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,724 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,724 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,724 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,724 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,724 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,724 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,724 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,725 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,725 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,725 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,725 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,725 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,725 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,725 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,725 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,725 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,726 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,726 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,726 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,726 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,726 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,726 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,726 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,726 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,726 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,727 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,727 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,727 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,727 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,727 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,727 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,727 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,727 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,727 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,728 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,728 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,728 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,728 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,728 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,728 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,728 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,728 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,728 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,729 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,729 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,729 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,729 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,729 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,729 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,729 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,729 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,729 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,730 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,730 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,730 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,730 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:19,730 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:19,749 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:19,749 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:19,749 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:19,749 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=1.0 socket_options=None
+2026-03-20 14:10:20,749 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:20,749 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:20,750 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:20,750 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:20,750 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:20,750 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:20,750 DEBUG [httpcore.connection] connect_tcp.failed exception=ConnectTimeout(TimeoutError())
+2026-03-20 14:10:20,750 DEBUG [backend.app.services.discovery] Error probing [IP]: 
+2026-03-20 14:10:20,750 INFO [backend.app.services.discovery] Tasmota scan complete. Found 5 devices.
+2026-03-20 14:10:21,239 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=5.0 socket_options=None
+2026-03-20 14:10:21,245 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=5.0 socket_options=None
+2026-03-20 14:10:21,249 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef102ef650>
+2026-03-20 14:10:21,250 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-20 14:10:21,250 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-20 14:10:21,250 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-20 14:10:21,250 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-20 14:10:21,250 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-20 14:10:21,250 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef1043de50>
+2026-03-20 14:10:21,250 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-20 14:10:21,250 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-20 14:10:21,250 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-20 14:10:21,250 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-20 14:10:21,250 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-20 14:10:21,279 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Server', b'Tasmota/14.4.1 (ESP8285H16)'), (b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'-1'), (b'Accept-Ranges', b'none'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'close')])
+2026-03-20 14:10:21,279 INFO [httpx] HTTP Request: GET http://[IP]/cm?cmnd=Power "HTTP/1.1 200 OK"
+2026-03-20 14:10:21,279 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-20 14:10:21,279 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Server', b'Tasmota/13.3.0 (ESP8266EX)'), (b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'-1'), (b'Accept-Ranges', b'none'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'close')])
+2026-03-20 14:10:21,280 INFO [httpx] HTTP Request: GET http://[IP]/cm?cmnd=Power "HTTP/1.1 200 OK"
+2026-03-20 14:10:21,280 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-20 14:10:21,359 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-20 14:10:21,359 DEBUG [httpcore.http11] response_closed.started
+2026-03-20 14:10:21,359 DEBUG [httpcore.http11] response_closed.complete
+2026-03-20 14:10:21,360 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-20 14:10:21,360 DEBUG [httpcore.http11] response_closed.started
+2026-03-20 14:10:21,360 DEBUG [httpcore.http11] response_closed.complete
+2026-03-20 14:10:21,365 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=5.0 socket_options=None
+2026-03-20 14:10:21,370 DEBUG [httpcore.connection] connect_tcp.started host='[IP]' port=80 local_address=None timeout=5.0 socket_options=None
+2026-03-20 14:10:21,685 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef103d7850>
+2026-03-20 14:10:21,686 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-20 14:10:21,686 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-20 14:10:21,686 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-20 14:10:21,686 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-20 14:10:21,686 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-20 14:10:21,790 DEBUG [httpcore.connection] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x70ef1008ac80>
+2026-03-20 14:10:21,790 DEBUG [httpcore.http11] send_request_headers.started request=<Request [b'GET']>
+2026-03-20 14:10:21,790 DEBUG [httpcore.http11] send_request_headers.complete
+2026-03-20 14:10:21,790 DEBUG [httpcore.http11] send_request_body.started request=<Request [b'GET']>
+2026-03-20 14:10:21,790 DEBUG [httpcore.http11] send_request_body.complete
+2026-03-20 14:10:21,790 DEBUG [httpcore.http11] receive_response_headers.started request=<Request [b'GET']>
+2026-03-20 14:10:21,895 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Server', b'Tasmota/14.4.1 (ESP8285H16)'), (b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'-1'), (b'Accept-Ranges', b'none'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'close')])
+2026-03-20 14:10:21,895 INFO [httpx] HTTP Request: GET http://[IP]/cm?cmnd=Status%208 "HTTP/1.1 200 OK"
+2026-03-20 14:10:21,896 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-20 14:10:21,899 DEBUG [httpcore.http11] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Server', b'Tasmota/13.3.0 (ESP8266EX)'), (b'Cache-Control', b'no-cache, no-store, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'-1'), (b'Accept-Ranges', b'none'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'close')])
+2026-03-20 14:10:21,899 INFO [httpx] HTTP Request: GET http://[IP]/cm?cmnd=Status%208 "HTTP/1.1 200 OK"
+2026-03-20 14:10:21,899 DEBUG [httpcore.http11] receive_response_body.started request=<Request [b'GET']>
+2026-03-20 14:10:21,976 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-20 14:10:21,976 DEBUG [httpcore.http11] response_closed.started
+2026-03-20 14:10:21,976 DEBUG [httpcore.http11] response_closed.complete
+2026-03-20 14:10:21,986 DEBUG [httpcore.http11] receive_response_body.complete
+2026-03-20 14:10:21,986 DEBUG [httpcore.http11] response_closed.started
+2026-03-20 14:10:21,987 DEBUG [httpcore.http11] response_closed.complete
