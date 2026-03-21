@@ -1730,6 +1730,11 @@ export default {
     slicerBambuStudio: 'Bambu Studio',
     slicerOrcaSlicer: 'OrcaSlicer',
     sidebarOrderDescription: 'Elemente in der Seitenleiste per Drag & Drop neu anordnen. Hier auf Standardreihenfolge zurücksetzen.',
+    setDefault: 'Standard setzen',
+    sidebarOrderSetDefaultHint: 'Standard setzen übernimmt die aktuelle Menüreihenfolge für Benutzer, die ihre noch nicht angepasst haben.',
+    sidebarDefaultSet: 'Standard-Menüreihenfolge wurde festgelegt.',
+    sidebarDefaultCleared: 'Standard-Menüreihenfolge gelöscht.',
+    sidebarDefaultFailed: 'Festlegen der Standard-Menüreihenfolge fehlgeschlagen.',
     reset: 'Zurücksetzen',
     // Appearance
     darkMode: 'Dunkelmodus',

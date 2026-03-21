@@ -1729,6 +1729,11 @@ export default {
     slicerBambuStudio: 'Bambu Studio',
     slicerOrcaSlicer: 'OrcaSlicer',
     sidebarOrderDescription: 'サイドバーの項目をドラッグして並べ替え。ここでデフォルトの順序にリセット。',
+    setDefault: 'デフォルト設定',
+    sidebarOrderSetDefaultHint: 'デフォルト設定は、まだカスタマイズしていないユーザーに現在のメニュー順序を適用します。',
+    sidebarDefaultSet: 'デフォルトメニュー順序を設定しました。',
+    sidebarDefaultCleared: 'デフォルトメニュー順序をクリアしました。',
+    sidebarDefaultFailed: 'デフォルトメニュー順序の設定に失敗しました。',
     reset: 'リセット',
     // Appearance
     darkMode: 'ダークモード',

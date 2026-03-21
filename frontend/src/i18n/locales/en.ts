@@ -1730,6 +1730,11 @@ export default {
     slicerBambuStudio: 'Bambu Studio',
     slicerOrcaSlicer: 'OrcaSlicer',
     sidebarOrderDescription: 'Drag items in the sidebar to reorder. Reset to default order here.',
+    setDefault: 'Set Default',
+    sidebarOrderSetDefaultHint: 'Set default applies the current menu order to users who haven\'t customized theirs.',
+    sidebarDefaultSet: 'Default menu order has been set.',
+    sidebarDefaultCleared: 'Default menu order cleared.',
+    sidebarDefaultFailed: 'Failed to set default menu order.',
     reset: 'Reset',
     // Appearance
     darkMode: 'Dark Mode',

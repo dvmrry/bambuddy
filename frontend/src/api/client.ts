@@ -866,6 +866,8 @@ export interface AppSettings {
   low_stock_threshold: number;
   // User email notifications toggle
   user_notifications_enabled: boolean;
+  // Default sidebar order (admin-set for all users)
+  default_sidebar_order: string;
 }
 
 export type AppSettingsUpdate = Partial<AppSettings>;
@@ -3159,6 +3161,7 @@ export const api = {
 
   // Settings
   getSettings: () => request<AppSettings>('/settings/'),
+  getDefaultSidebarOrder: () => request<{ default_sidebar_order: string }>('/settings/default-sidebar-order'),
   updateSettings: (data: AppSettingsUpdate) =>
     request<AppSettings>('/settings/', {
       method: 'PUT',

@@ -25,6 +25,7 @@ import { VirtualPrinterList } from '../components/VirtualPrinterList';
 import { GitHubBackupSettings } from '../components/GitHubBackupSettings';
 import { EmailSettings } from '../components/EmailSettings';
 import { APIBrowser } from '../components/APIBrowser';
+import { Toggle } from '../components/Toggle';
 import { virtualPrinterApi } from '../api/client';
 import { defaultNavItems, getDefaultView, setDefaultView } from '../components/Layout';
 import { availableLanguages } from '../i18n';
@@ -75,7 +76,7 @@ export function SettingsPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const { t, i18n } = useTranslation();
   const { showToast } = useToast();
-  const { authEnabled, user, refreshAuth } = useAuth();
+  const { authEnabled, user, refreshAuth, hasPermission } = useAuth();
   const {
     mode,
     darkStyle, darkBackground, darkAccent,
@@ -177,6 +178,37 @@ export function SettingsPage() {
   const handleResetSidebarOrder = () => {
     localStorage.removeItem('sidebarOrder');
     window.location.reload();
+  };
+
+  const isDefaultSidebarEnabled = !!localSettings?.default_sidebar_order;
+
+  const handleToggleDefaultSidebarOrder = async (enabled: boolean) => {
+    try {
+      if (enabled) {
+        let orderArr: string[];
+        const stored = localStorage.getItem('sidebarOrder');
+        try {
+          orderArr = stored ? JSON.parse(stored) : defaultNavItems.map(i => i.id);
+        } catch {
+          orderArr = defaultNavItems.map(i => i.id);
+        }
+        if (!Array.isArray(orderArr) || orderArr.length === 0) {
+          orderArr = defaultNavItems.map(i => i.id);
+        }
+        const payload = JSON.stringify({ order: orderArr });
+        await api.updateSettings({ default_sidebar_order: payload });
+        setLocalSettings(prev => prev ? { ...prev, default_sidebar_order: payload } : prev);
+        showToast(t('settings.sidebarDefaultSet'), 'success');
+      } else {
+        await api.updateSettings({ default_sidebar_order: '' });
+        setLocalSettings(prev => prev ? { ...prev, default_sidebar_order: '' } : prev);
+        showToast(t('settings.sidebarDefaultCleared'), 'success');
+      }
+      queryClient.invalidateQueries({ queryKey: ['settings'] });
+      queryClient.invalidateQueries({ queryKey: ['default-sidebar-order'] });
+    } catch {
+      showToast(t('settings.sidebarDefaultFailed'), 'error');
+    }
   };
 
   const { data: settings, isLoading } = useQuery({
@@ -376,8 +408,6 @@ export function SettingsPage() {
   });
 
   // User management queries and mutations
-  const { hasPermission } = useAuth();
-
   const { data: usersData = [], isLoading: usersLoading } = useQuery({
     queryKey: ['users'],
     queryFn: () => api.getUsers(),
@@ -1177,16 +1207,29 @@ export function SettingsPage() {
                   <p className="text-white">{t('settings.sidebarOrder')}</p>
                   <p className="text-sm text-bambu-gray">
                     {t('settings.sidebarOrderDescription')}
+                    {authEnabled && hasPermission('settings:update') && ` ${t('settings.sidebarOrderSetDefaultHint')}`}
                   </p>
                 </div>
-                <Button
-                  variant="secondary"
-                  size="sm"
-                  onClick={handleResetSidebarOrder}
-                >
-                  <RotateCcw className="w-4 h-4" />
-                  {t('settings.reset')}
-                </Button>
+                <div className="flex items-center gap-2 shrink-0">
+                  <Button
+                    variant="secondary"
+                    size="sm"
+                    onClick={handleResetSidebarOrder}
+                  >
+                    <RotateCcw className="w-4 h-4" />
+                    {t('settings.reset')}
+                  </Button>
+                  {authEnabled && hasPermission('settings:update') && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm text-bambu-gray whitespace-nowrap">{t('settings.setDefault')}</span>
+                      <Toggle
+                        checked={isDefaultSidebarEnabled}
+                        onChange={handleToggleDefaultSidebarOrder}
+                        disabled={isLoading}
+                      />
+                    </div>
+                  )}
+                </div>
               </div>
             </CardContent>
           </Card>
