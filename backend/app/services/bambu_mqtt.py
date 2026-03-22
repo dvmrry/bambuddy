@@ -2627,11 +2627,12 @@ class BambuMQTTClient:
                         slot_id = tray_id % 4
                         ams_mapping2.append({"ams_id": ams_id, "slot_id": slot_id})
 
-            # H2D series requires integer values (0/1) for calibration/leveling fields
+            # Some printer models require integer values (0/1) for calibration/leveling fields
             # but use_ams MUST remain boolean — H2D Pro firmware interprets integer
             # values as nozzle index (1 = deputy nozzle), causing wrong extruder routing
             # Other printers (X1C, P1S, A1, etc.) require actual booleans for all fields
-            is_h2d = self.model and self.model.upper().strip() in ("H2D", "H2D PRO", "H2DPRO", "H2C", "H2S")
+            model_upper = self.model.upper().strip() if self.model else ""
+            use_int_fields = model_upper in ("H2D", "H2D PRO", "H2DPRO", "H2C", "H2S", "P2S", "N7")
 
             command = {
                 "print": {
@@ -2642,17 +2643,12 @@ class BambuMQTTClient:
                     "file": filename,
                     "md5": "",
                     "bed_type": "auto",
-                    "timelapse": (1 if timelapse else 0) if is_h2d else timelapse,
-                    "bed_leveling": (1 if bed_levelling else 0) if is_h2d else bed_levelling,
-                    "auto_bed_leveling": 1 if bed_levelling else 0,
-                    "flow_cali": (1 if flow_cali else 0) if is_h2d else flow_cali,
-                    "vibration_cali": (1 if vibration_cali else 0) if is_h2d else vibration_cali,
-                    "layer_inspect": (1 if layer_inspect else 0) if is_h2d else layer_inspect,
+                    "timelapse": (1 if timelapse else 0) if use_int_fields else timelapse,
+                    "bed_leveling": (1 if bed_levelling else 0) if use_int_fields else bed_levelling,
+                    "flow_cali": (1 if flow_cali else 0) if use_int_fields else flow_cali,
+                    "vibration_cali": (1 if vibration_cali else 0) if use_int_fields else vibration_cali,
+                    "layer_inspect": (1 if layer_inspect else 0) if use_int_fields else layer_inspect,
                     "use_ams": use_ams,
-                    "cfg": "0",
-                    "extrude_cali_flag": 0,
-                    "extrude_cali_manual_mode": 0,
-                    "nozzle_offset_cali": 2,
                     "subtask_name": filename.replace(".3mf", "").replace(".gcode", ""),
                     "profile_id": "0",
                     "project_id": "0",
@@ -2661,17 +2657,34 @@ class BambuMQTTClient:
                 }
             }
 
-            if is_h2d:
-                logger.debug(
-                    "[%s] H2D series detected: using integer format for calibration fields (use_ams stays boolean)",
-                    self.serial_number,
-                )
+            # Model-specific calibration fields aligned with BambuStudio PrintParams
+            # H2D/H2C/H2S (O-series dual nozzle): full calibration suite
+            if model_upper in ("H2D", "H2D PRO", "H2DPRO", "H2C", "H2S"):
+                command["print"]["auto_bed_leveling"] = 1 if bed_levelling else 0
+                command["print"]["auto_flow_cali"] = 1 if flow_cali else 0
+                command["print"]["auto_offset_cali"] = 2  # dual-nozzle auto calibration
+                command["print"]["extruder_cali_manual_mode"] = -1
+            # P2S/N7 (N-series): minimal calibration, no dual-nozzle features
+            elif model_upper in ("P2S", "N7"):
+                command["print"]["auto_bed_leveling"] = 1 if bed_levelling else 0
+                command["print"]["auto_flow_cali"] = 1 if flow_cali else 0
+                command["print"]["auto_offset_cali"] = 0  # single nozzle, not supported
+                command["print"]["extruder_cali_manual_mode"] = -1
+                command["print"]["vibration_cali"] = 0  # BambuStudio hardcodes false for all models
+            # Legacy models (X1C, P1S, A1, etc.): backward-compatible field names
+            else:
+                command["print"]["auto_bed_leveling"] = 1 if bed_levelling else 0
+                command["print"]["cfg"] = "0"
+                command["print"]["extrude_cali_flag"] = 1 if flow_cali else 0
+                command["print"]["extrude_cali_manual_mode"] = 0
+                command["print"]["nozzle_offset_cali"] = 2
 
-            # P2S-specific parameter adjustments
-            # P2S printer doesn't support vibration calibration like X1/P1 series
-            if self.model and self.model.upper().strip() in ("P2S", "N7"):
-                command["print"]["vibration_cali"] = False
-                logger.debug("[%s] P2S detected: disabling vibration_cali", self.serial_number)
+            if use_int_fields:
+                logger.debug(
+                    "[%s] %s detected: using integer format for calibration fields (use_ams stays boolean)",
+                    self.serial_number,
+                    model_upper,
+                )
 
             # Add AMS mapping if provided
             if ams_mapping is not None:
