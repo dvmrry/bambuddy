@@ -992,6 +992,13 @@ class TestNozzleRackData:
 class TestRequestTopicFailSafe:
     """Tests for graceful degradation when broker rejects request topic subscription."""
 
+    @pytest.fixture(autouse=True)
+    def clear_request_topic_cache(self):
+        """Clear class-level cache before each test to avoid cross-test pollution."""
+        from backend.app.services.bambu_mqtt import BambuMQTTClient
+
+        BambuMQTTClient._request_topic_cache.clear()
+
     @pytest.fixture
     def mqtt_client(self):
         from backend.app.services.bambu_mqtt import BambuMQTTClient
@@ -1098,6 +1105,79 @@ class TestRequestTopicFailSafe:
         # Only report topic subscribed, not request topic
         assert len(subscribe_calls) == 1
         assert subscribe_calls[0] == mqtt_client.topic_subscribe
+
+    def test_cache_persists_across_instances(self):
+        """New client instance inherits request topic unsupported state from cache."""
+        from backend.app.services.bambu_mqtt import BambuMQTTClient
+
+        client1 = BambuMQTTClient(
+            ip_address="192.168.1.100",
+            serial_number="TEST_CACHE",
+            access_code="12345678",
+        )
+        assert client1._request_topic_supported is True
+
+        # Simulate disconnect-after-subscribe disabling the topic
+        client1._request_topic_sub_time = __import__("time").time()
+        client1._request_topic_confirmed = False
+        client1._last_message_time = 0.0
+        client1._on_disconnect(None, None)
+        assert client1._request_topic_supported is False
+
+        # New instance for same serial should inherit the cached state
+        client2 = BambuMQTTClient(
+            ip_address="192.168.1.100",
+            serial_number="TEST_CACHE",
+            access_code="12345678",
+        )
+        assert client2._request_topic_supported is False
+
+    def test_cache_does_not_affect_different_serial(self):
+        """Cache is per-serial — different printer is unaffected."""
+        from backend.app.services.bambu_mqtt import BambuMQTTClient
+
+        BambuMQTTClient._request_topic_cache["SERIAL_A"] = False
+
+        client = BambuMQTTClient(
+            ip_address="192.168.1.100",
+            serial_number="SERIAL_B",
+            access_code="12345678",
+        )
+        assert client._request_topic_supported is True
+
+    def test_cache_updated_on_suback_success(self):
+        """Successful SUBACK caches positive confirmation."""
+        from paho.mqtt.reasoncodes import ReasonCode
+
+        from backend.app.services.bambu_mqtt import BambuMQTTClient
+
+        client = BambuMQTTClient(
+            ip_address="192.168.1.100",
+            serial_number="TEST_SUBACK",
+            access_code="12345678",
+        )
+        client._request_topic_sub_mid = 42
+        rc = ReasonCode(9, identifier=0)  # Success
+        client._on_subscribe(None, None, 42, [rc], None)
+
+        assert BambuMQTTClient._request_topic_cache["TEST_SUBACK"] is True
+
+    def test_cache_updated_on_suback_rejection(self):
+        """SUBACK rejection caches negative state."""
+        from paho.mqtt.reasoncodes import ReasonCode
+
+        from backend.app.services.bambu_mqtt import BambuMQTTClient
+
+        client = BambuMQTTClient(
+            ip_address="192.168.1.100",
+            serial_number="TEST_REJECT",
+            access_code="12345678",
+        )
+        client._request_topic_sub_mid = 42
+        rc = ReasonCode(9, identifier=0x80)  # Failure
+        client._on_subscribe(None, None, 42, [rc], None)
+
+        assert BambuMQTTClient._request_topic_cache["TEST_REJECT"] is False
 
 
 class TestRequestTopicAmsMapping:

@@ -265,6 +265,10 @@ class BambuMQTTClient:
 
     MQTT_PORT = 8883
 
+    # Class-level cache: serial_number -> False when request topic is known unsupported.
+    # Persists across client instances so reconnects don't re-trigger failed subscriptions.
+    _request_topic_cache: dict[str, bool] = {}
+
     def __init__(
         self,
         ip_address: str,
@@ -332,9 +336,10 @@ class BambuMQTTClient:
         self._captured_ams_mapping: list[int] | None = None
 
         # Request topic subscription tracking
-        # Some printer MQTT brokers (e.g. P1S) reject subscriptions to the request
+        # Some printer MQTT brokers (e.g. P1S, A1) reject subscriptions to the request
         # topic by killing the TCP connection. We detect this and gracefully degrade.
-        self._request_topic_supported: bool = True
+        # Check class-level cache first so new client instances don't retry known-bad subscriptions.
+        self._request_topic_supported: bool = BambuMQTTClient._request_topic_cache.get(self.serial_number, True)
         self._request_topic_sub_mid: int | None = None
         self._request_topic_sub_time: float = 0.0
         self._request_topic_confirmed: bool = False
@@ -387,6 +392,7 @@ class BambuMQTTClient:
                         self.serial_number,
                     )
                     self._request_topic_supported = False
+                    BambuMQTTClient._request_topic_cache[self.serial_number] = False
             # Request full status update (includes nozzle info in push_status response)
             self._request_push_all()
             # Request firmware version info
@@ -414,6 +420,7 @@ class BambuMQTTClient:
                         rc.getName(),
                     )
                     self._request_topic_supported = False
+                    BambuMQTTClient._request_topic_cache[self.serial_number] = False
                 else:
                     logger.info(
                         "[%s] Request topic subscription accepted. "
@@ -421,6 +428,7 @@ class BambuMQTTClient:
                         self.serial_number,
                     )
                     self._request_topic_confirmed = True
+                    BambuMQTTClient._request_topic_cache[self.serial_number] = True
             self._request_topic_sub_mid = None
             self._request_topic_sub_time = 0.0
 
@@ -449,6 +457,7 @@ class BambuMQTTClient:
                 self.serial_number,
             )
             self._request_topic_supported = False
+            BambuMQTTClient._request_topic_cache[self.serial_number] = False
         self._request_topic_sub_mid = None
         self._request_topic_sub_time = 0.0
 
