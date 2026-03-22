@@ -48,6 +48,8 @@ All notable changes to Bambuddy will be documented in this file.
 - **Reformatted AMS Drying Presets Table** ([#732](https://github.com/maziggy/bambuddy/issues/732)) — The drying presets table in Settings now groups columns by AMS type (AMS 2 Pro, AMS-HT) with inline °C and h unit labels next to each input, replacing the previous flat column layout. Requested by @cadtoolbox.
 
 ### Security
+- **Bump pyOpenSSL 25.3.0 → 26.0.0** — Fixes CVE-2026-27448 (exception swallowing in TLS servername callback) and CVE-2026-27459 (buffer overflow in DTLS cookie callback).
+- **Bump pyasn1 0.6.2 → 0.6.3** — Fixes CVE-2026-30922 (stack overflow from deeply nested ASN.1 structures).
 
 
 ## [0.2.2] - 2026-03-16
