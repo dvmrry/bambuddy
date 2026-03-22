@@ -76,15 +76,16 @@ export function PrintModal({
     return [];
   });
 
-  const [selectedPlate, setSelectedPlate] = useState<number | null>(() => {
-    if (mode === 'edit-queue-item' && queueItem) {
-      return queueItem.plate_id;
+  // Multi-select plates: in add-to-queue mode users can pick a subset of plates
+  const [selectedPlates, setSelectedPlates] = useState<Set<number>>(() => {
+    if (mode === 'edit-queue-item' && queueItem?.plate_id != null) {
+      return new Set([queueItem.plate_id]);
     }
-    return null;
+    return new Set();
   });
 
-  // Queue all plates at once (only for add-to-queue mode with multi-plate files)
-  const [queueAllPlates, setQueueAllPlates] = useState(false);
+  // Derived single-plate value for filament queries and single-select contexts
+  const selectedPlate = selectedPlates.size === 1 ? [...selectedPlates][0] : null;
 
   const [printOptions, setPrintOptions] = useState<PrintOptions>(() => {
     if (mode === 'edit-queue-item' && queueItem) {
@@ -322,10 +323,10 @@ export function PrintModal({
 
   // Auto-select first plate when plates load (single or multi-plate)
   useEffect(() => {
-    if (platesData?.plates && platesData.plates.length >= 1 && !selectedPlate) {
-      setSelectedPlate(platesData.plates[0].index);
+    if (platesData?.plates && platesData.plates.length >= 1 && selectedPlates.size === 0) {
+      setSelectedPlates(new Set([platesData.plates[0].index]));
     }
-  }, [platesData, selectedPlate]);
+  }, [platesData, selectedPlates.size]);
 
   // Auto-select first printer when only one available
   useEffect(() => {
@@ -539,7 +540,9 @@ export function PrintModal({
 
     setIsSubmitting(true);
     // Calculate total API calls: plates × printers (or 1 for model-based)
-    const platesToQueue = queueAllPlates ? plates : [null];
+    const platesToQueue = selectedPlates.size > 1
+      ? plates.filter(p => selectedPlates.has(p.index))
+      : [null];
     const totalCount = assignmentMode === 'model'
       ? platesToQueue.length
       : selectedPrinters.length * platesToQueue.length;
@@ -673,7 +676,7 @@ export function PrintModal({
 
           try {
             if (mode === 'reprint') {
-              // Reprint mode - start print immediately (single plate only, queueAllPlates not available)
+              // Reprint mode - start print immediately (single plate only, multi-select not available)
               const printerMapping = getMappingForPrinter(printerId);
               if (isLibraryFile) {
                 await api.printLibraryFile(libraryFileId!, printerId, {
@@ -760,11 +763,11 @@ export function PrintModal({
     // Model-based assignment only works in queue modes (not immediate reprint)
     if (assignmentMode === 'model' && mode === 'reprint') return false;
 
-    // For multi-plate files, need a selected plate (or queue-all)
-    if (isMultiPlate && !selectedPlate && !queueAllPlates) return false;
+    // For multi-plate files, need at least one plate selected
+    if (isMultiPlate && selectedPlates.size === 0) return false;
 
     return true;
-  }, [selectedPrinters.length, assignmentMode, targetModel, mode, isMultiPlate, selectedPlate, queueAllPlates, isPending]);
+  }, [selectedPrinters.length, assignmentMode, targetModel, mode, isMultiPlate, selectedPlates.size, isPending]);
 
   // Modal title and action button text based on mode
   const getModalConfig = () => {
@@ -783,8 +786,8 @@ export function PrintModal({
     }
     if (mode === 'add-to-queue') {
       let submitText = t('queue.addToQueue');
-      if (queueAllPlates && plates.length > 1) {
-        submitText = t('queue.queueAllPlates', { count: plates.length });
+      if (selectedPlates.size > 1) {
+        submitText = t('queue.queueSelectedPlates', { count: selectedPlates.size });
       } else if (printerCount > 1) {
         submitText = t('queue.queueToPrinters', { count: printerCount });
       }
@@ -818,7 +821,7 @@ export function PrintModal({
   // - Single printer selected
   // - For archives: plate is selected (for multi-plate) or not required (single-plate)
   // - For library files: always show (no plate selection)
-  const showFilamentMapping = effectivePrinterId && !queueAllPlates && (
+  const showFilamentMapping = effectivePrinterId && selectedPlates.size <= 1 && (
     isLibraryFile || (isMultiPlate ? selectedPlate !== null : true)
   );
 
@@ -869,10 +872,28 @@ export function PrintModal({
             <PlateSelector
               plates={plates}
               isMultiPlate={isMultiPlate}
-              selectedPlate={selectedPlate}
-              onSelect={setSelectedPlate}
-              queueAll={queueAllPlates}
-              onQueueAllChange={mode === 'add-to-queue' ? setQueueAllPlates : undefined}
+              selectedPlates={selectedPlates}
+              onToggle={(plateIndex) => {
+                setSelectedPlates(prev => {
+                  const next = new Set(prev);
+                  if (mode === 'add-to-queue') {
+                    // Multi-select: toggle the plate
+                    if (next.has(plateIndex)) {
+                      next.delete(plateIndex);
+                    } else {
+                      next.add(plateIndex);
+                    }
+                  } else {
+                    // Single-select: replace selection
+                    next.clear();
+                    next.add(plateIndex);
+                  }
+                  return next;
+                });
+              }}
+              onSelectAll={mode === 'add-to-queue' ? () => setSelectedPlates(new Set(plates.map(p => p.index))) : undefined}
+              onDeselectAll={mode === 'add-to-queue' ? () => setSelectedPlates(new Set()) : undefined}
+              multiSelect={mode === 'add-to-queue'}
             />
 
             {/* Printer selection with per-printer mapping — hidden when printer is pre-selected via props */}
